@@ -25,7 +25,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install @slidev/cli @slidev/theme-dracula playwright-chromium
+        run: npm install @slidev/cli slidev-theme-dracula playwright-chromium
 
       - name: Build slides
         run: npx slidev build --base /${{ github.event.repository.name }}/

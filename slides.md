@@ -8,6 +8,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+download: true
 ---
 
 # 研究汇报

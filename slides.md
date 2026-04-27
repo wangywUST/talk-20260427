@@ -10,8 +10,8 @@ transition: slide-left
 mdc: true
 download: true
 fonts:
-  sans: Ma Shan Zheng
-  mono: Ma Shan Zheng
+  sans: Noto Serif SC
+  mono: Noto Serif SC
 ---
 
 # 研究汇报

@@ -9,6 +9,9 @@ drawings:
 transition: slide-left
 mdc: true
 download: true
+fonts:
+  sans: Ma Shan Zheng
+  mono: Ma Shan Zheng
 ---
 
 # 研究汇报

@@ -22,6 +22,8 @@ fonts:
 2026年X月X日 · 组会
 </div>
 
+<img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />
+
 ---
 
 # 目录

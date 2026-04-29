@@ -212,6 +212,10 @@ The **inter-microphone time delay** encodes complete spatial information — yet
 Conclusion: The model is listening, but not reasoning about space.
 </div>
 
+<div class="absolute bottom-6 left-10 right-10 text-xs text-gray-400">
+Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs · Z Sun, Y Cai, J Yao, Y Wang · arXiv:2511.13273
+</div>
+
 ---
 
 # Evidence 2 · Not in Sync

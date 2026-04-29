@@ -20,7 +20,7 @@ fonts:
 **Author Name** · University of California, Merced
 
 <div class="pt-4 text-gray-400">
-April 2026 · Group Meeting
+April 2026
 </div>
 
 <img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />

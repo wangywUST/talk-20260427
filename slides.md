@@ -147,7 +147,7 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 <div class="p-4 border rounded">
 
-### Spatial Constraints
+#### Spatial Constraints
 
 Perspective, occlusion, parallax
 
@@ -157,7 +157,7 @@ The 3D spatial layout of objects leaves deterministic traces in 2D images.
 
 <div class="p-4 border rounded">
 
-### Temporal Constraints
+#### Temporal Constraints
 
 Motion continuity, causal order
 
@@ -167,7 +167,7 @@ Physical events on the time axis must obey causality — they cannot be reversed
 
 <div class="p-4 border rounded">
 
-### Multi-source Constraints
+#### Multi-source Constraints
 
 Observations of the same physical event across multiple signal sources must be mutually consistent.
 

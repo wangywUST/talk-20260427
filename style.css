@@ -8,12 +8,20 @@
   color: #1a1a1a !important;
 }
 
-.slidev-layout h3 {
-  margin-bottom: 0.01rem !important;
-}
+.slidev-layout h3,
 .slidev-layout h4 {
   color: #7c5cbf !important;
-  margin-bottom: 0.01rem !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0 !important;
+}
+
+.slidev-layout h3 + p,
+.slidev-layout h3 + ul,
+.slidev-layout h3 + ol,
+.slidev-layout h4 + p,
+.slidev-layout h4 + ul,
+.slidev-layout h4 + ol {
+  margin-top: 0.15rem !important;
 }
 
 .slidev-layout strong {

@@ -235,11 +235,11 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 
 </div>
 
-<div class="relative w-full" style="height: 18rem;">
+<div class="relative w-full" style="height: 20rem;">
 
-<img src="/Image/fig_5.png" class="absolute inset-0 w-full h-full object-contain object-top" />
+<img src="/Image/fig_5.png" class="absolute top-0 w-full object-contain object-top" style="max-height: 14rem;" />
 
-<img v-click src="/Image/fig_6.png" class="absolute inset-0 w-full h-full object-contain object-top" />
+<img v-click src="/Image/fig_6.png" class="absolute w-full object-contain object-top rounded shadow-lg" style="top: 7rem; max-height: 13rem; background: white;" />
 
 </div>
 

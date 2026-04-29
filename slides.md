@@ -55,17 +55,19 @@ April 2026
 
 <v-clicks>
 
-<div class="text-2xl mt-8">Audio &nbsp;=&nbsp; Spatiotemporal encoding of pressure waves</div>
+<div class="text-2xl mt-4">Audio &nbsp;=&nbsp; Spatiotemporal encoding of pressure waves</div>
 
-<div class="text-2xl mt-6">Image &nbsp;=&nbsp; 2D projection of a light field</div>
+<div class="text-2xl mt-4">Image &nbsp;=&nbsp; 2D projection of a light field</div>
 
-<div class="text-2xl mt-6">Video &nbsp;=&nbsp; Continuous sampling of spatiotemporal dynamics</div>
+<div class="text-2xl mt-4">Video &nbsp;=&nbsp; Continuous sampling of spatiotemporal dynamics</div>
 
 </v-clicks>
 
-<div v-click class="pt-8 text-center text-lg text-gray-500">
+<div v-click class="pt-4 text-center text-lg text-gray-500">
 The structure of a signal is the structure of physical law.
 </div>
+
+<img v-click src="/Image/fig_2.png" class="mt-4 w-full object-contain max-h-52" />
 
 ---
 layout: two-cols

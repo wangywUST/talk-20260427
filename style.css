@@ -4,9 +4,12 @@
 }
 
 .slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout h3 {
+.slidev-layout h2 {
   color: #1a1a1a !important;
+}
+
+.slidev-layout h3 {
+  color: #555 !important;
 }
 
 .slidev-layout blockquote {

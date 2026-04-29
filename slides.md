@@ -85,7 +85,7 @@ Statistical pattern matching
 - No physical prior
 - Systematic failure on out-of-distribution cases
 
-<img src="/Image/fig_3.png" class="mt-auto w-full object-contain max-h-36" />
+<img src="/Image/fig_3.png" class="mt-4 w-full object-contain max-h-52" />
 
 </div>
 

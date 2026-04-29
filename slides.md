@@ -237,9 +237,9 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 
 <div class="flex flex-col gap-2">
 
-<img src="/Image/fig_5.png" class="w-full object-contain max-h-40" />
+<img src="/Image/fig_5.png" style="width: 100%; max-height: 6rem; object-fit: scale-down; object-position: left top;" />
 
-<img src="/Image/fig_6.png" class="w-full object-contain max-h-40" />
+<img src="/Image/fig_6.png" style="width: 100%; max-height: 6rem; object-fit: scale-down; object-position: left top;" />
 
 </div>
 

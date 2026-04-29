@@ -27,7 +27,9 @@ April 2026
 
 ---
 
-<div class="flex flex-col h-full pt-4">
+# Three Questions, One Principle
+
+<div class="flex flex-col h-full pt-2">
 
 <v-clicks>
 

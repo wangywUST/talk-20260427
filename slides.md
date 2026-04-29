@@ -143,9 +143,9 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 # What Are Physical Constraints?
 
-<div class="grid grid-cols-[1fr_1fr_1.5fr] gap-6 mt-8">
+<div class="grid grid-cols-3 gap-3 mt-8">
 
-<div class="p-4 border rounded">
+<div class="p-3 border rounded">
 
 #### Spatial Constraints
 
@@ -155,7 +155,7 @@ The 3D spatial layout of objects leaves deterministic traces in 2D images.
 
 </div>
 
-<div class="p-4 border rounded">
+<div class="p-3 border rounded">
 
 #### Temporal Constraints
 
@@ -165,7 +165,7 @@ Physical events on the time axis must obey causality — they cannot be reversed
 
 </div>
 
-<div class="p-4 border rounded">
+<div class="p-3 border rounded">
 
 #### Multi-source Constraints
 

@@ -75,7 +75,7 @@ The structure of a signal is the structure of physical law.
 
 <div class="flex gap-8 mt-6">
 
-<div class="flex-1">
+<div class="flex-1 flex flex-col">
 
 ### How Current Models Work
 
@@ -84,6 +84,8 @@ Statistical pattern matching
 - Similar input seen before → similar output
 - No physical prior
 - Systematic failure on out-of-distribution cases
+
+<img src="/Image/fig_3.png" class="mt-auto w-full object-contain max-h-36" />
 
 </div>
 

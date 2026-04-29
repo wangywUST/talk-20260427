@@ -235,15 +235,11 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 
 </div>
 
-<div class="flex flex-col gap-2">
+<div class="relative w-full" style="height: 18rem;">
 
-<div style="width: 100%; max-height: 9rem; overflow: hidden;">
-<img src="/Image/fig_5.png" style="width: 100%; height: auto; display: block;" />
-</div>
+<img src="/Image/fig_5.png" class="absolute inset-0 w-full h-full object-contain object-top" />
 
-<div style="width: 100%; max-height: 9rem; overflow: hidden;">
-<img src="/Image/fig_6.png" style="width: 100%; height: auto; display: block;" />
-</div>
+<img v-click src="/Image/fig_6.png" class="absolute inset-0 w-full h-full object-contain object-top" />
 
 </div>
 

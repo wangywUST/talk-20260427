@@ -26,8 +26,8 @@ April 2026 · Group Meeting
 <img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />
 
 ---
-layout: center
----
+
+<div class="flex flex-col items-center justify-center h-full text-center">
 
 <v-clicks>
 
@@ -39,12 +39,12 @@ layout: center
 
 </v-clicks>
 
-<div v-click class="pt-6 text-center text-xl text-gray-500">
+<div v-click class="pt-6 text-xl text-gray-500">
 These three questions are, fundamentally, the same question.
 </div>
 
----
-layout: center
+</div>
+
 ---
 
 # Signal is Physics
@@ -293,8 +293,6 @@ Conclusion: More reasoning steps ≠ better physical understanding.
 </div>
 
 ---
-layout: center
----
 
 # Problem Framework
 
@@ -357,8 +355,6 @@ Every step can answer: what physical operation is this step performing?
 
 </div>
 
----
-layout: center
 ---
 
 # What Is Multi-source Consistency?
@@ -1020,8 +1016,6 @@ Audio's physical logic acts as a validator for visual reasoning.
 </div>
 
 ---
-layout: center
----
 
 # Multi-source Consistency — Unified View
 
@@ -1169,8 +1163,6 @@ Multi-sensor signals must be physically consistent to support reliable decision-
 Conclusion: Physical reasoning is the cognitive foundation of embodied intelligence.
 </div>
 
----
-layout: center
 ---
 
 # The Complete Chain: From Signal to Action
@@ -1373,8 +1365,6 @@ Decision layer validates the **value**.
 
 </div>
 
----
-layout: center
 ---
 
 # Core Claims

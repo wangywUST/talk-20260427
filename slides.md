@@ -143,7 +143,7 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 # What Are Physical Constraints?
 
-<div class="grid grid-cols-3 gap-6 mt-8">
+<div class="grid grid-cols-[1fr_1fr_1.5fr] gap-6 mt-8">
 
 <div class="p-4 border rounded">
 

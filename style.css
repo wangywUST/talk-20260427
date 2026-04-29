@@ -13,6 +13,10 @@
   color: #7c5cbf !important;
 }
 
+.slidev-layout strong {
+  color: #b35c00 !important;
+}
+
 .slidev-layout blockquote {
   color: #555 !important;
   border-left-color: #ccc !important;

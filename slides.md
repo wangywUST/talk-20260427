@@ -17,7 +17,7 @@ fonts:
 # Signal is Physics
 ## Structured Reasoning for Multimodal World Understanding
 
-**Author Name** · University of California, Merced
+**Yiwei Wang** · University of California, Merced
 
 <div class="pt-4 text-gray-400">
 April 2026

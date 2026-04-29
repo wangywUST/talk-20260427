@@ -1,0 +1,453 @@
+
+Yiwei
+添加合著者
+我们向您提出了合著者建议。
+引用次数
+总计	2021 年至今
+引用	3660	3628
+h 指数	29	28
+i10 指数	62	62
+015007503751125
+2020202120222023202420252026
+开放获取的出版物数量
+查看全部
+29 篇文章
+0 篇文章
+可查看的文章
+无法查看的文章
+根据资助方的强制性开放获取政策
+合著作者
+Yujun Cai
+Yujun Cai
+NTU → Meta → Lecturer(Assistant Professor) @UQ
+Bryan Hooi
+Bryan Hooi
+National University of Singapore
+Yuxuan Liang
+Yuxuan Liang
+Assistant Professor, Hong Kong University of Science and Technology (Guangzhou)
+Nanyun (Violet) Peng
+Nanyun (Violet) Peng
+Associate Professor, UCLA
+Kai-Wei Chang
+Kai-Wei Chang
+Associate Professor, UCLA
+Muhao Chen
+Muhao Chen
+Associate Professor of Computer Science, University of California, Davis
+Juncheng Liu
+Juncheng Liu
+Salesforce Research
+Fei Wang
+Fei Wang
+Research Scientist, Google
+关注
+Yiwei Wang
+Yiwei Wang
+University of California at Merced
+在 ucmerced.edu 的电子邮件经过验证 - 首页
+Natural Language ProcessingVision Language Models
+标题
+引用次数
+年份
+How Creative Are Large Language Models in Generating Molecules?
+W Tao, Y Wang, P Zhou, B Hooi, W Fang, T Zhang, X Luo, Y Liu, A Chan
+arXiv preprint arXiv:2604.18031
+2026
+VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG
+H Fu, M Xu, Y Wang, D Zhang, L Jun, Y Cai
+arXiv preprint arXiv:2604.05418
+2026
+HighlightBench: Benchmarking Markup-Driven Table Reasoning in Scientific Documents
+L Wang, S Liu, Y Wang, Y Cai, Y Ge, J Yao, J Guo, X Cheng
+arXiv preprint arXiv:2603.26784
+2026
+OIDA-QA: A Multimodal Benchmark for Analyzing the Opioid Industry Documents Archive
+X Shen, B Wingenroth, Z Wang, J Kuen, W Zhu, R Zhang, Y Wang, L Ma, ...
+Proceedings of the AAAI Conference on Artificial Intelligence 40 (46), 39249 …
+1	2026
+Prism-: Differential Subspace Steering for Prompt Highlighting in Large Language Models
+Y Ge, S Liu, Y Wang, T Liu, B Bi, L Mei, J Yao, J Guo, X Cheng
+arXiv preprint arXiv:2603.10705
+2026
+ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning
+X Tao, Y Wang, Y Cai, Y Song, J Tang
+arXiv preprint arXiv:2603.06024
+2026
+Prism-: Differential Subspace Steering for Prompt Highlighting in Large Language Models
+Y Ge, S Liu, Y Wang, T Liu, B Bi, L Mei, J Yao, J Guo, X Cheng
+arXiv e-prints, arXiv: 2603.10705
+2026
+PromptCD: Test-Time Behavior Enhancement via Polarity-Prompt Contrastive Decoding
+B Bi, Y Ge, S Liu, Y He, S Tong, L Chen, L Mei, Z Li, Y Wang, Y Cai, ...
+arXiv preprint arXiv:2602.20696
+2026
+AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning
+S Tong, X Li, Y Wang, B Bi, Y Cai, S Liu, Y He, C Hao
+arXiv preprint arXiv:2602.13685
+2026
+AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning
+L Chen, H Chen, Y Cai, S Li, Q Ye, Y Wang
+arXiv preprint arXiv:2602.10439
+2026
+Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning
+Z Yang, Z Guo, Y Huang, Y Wang, W Shi, Y Wang, X Liang, J Tang
+arXiv preprint arXiv:2602.03249
+1	2026
+SQLAgent: Learning to Explore Before Generating as a Data Engineer
+W Jiang, Y Wang, B Han, JT Zhou, C Zhang
+arXiv preprint arXiv:2602.01952
+2026
+ProjDevBench: Benchmarking AI Coding Agents on End-to-End Project Development
+P Lu, S Zhang, Y Hou, L Ye, C Huang, Z Chen, J Zeng, H Jiang, P Liu, ...
+arXiv preprint arXiv:2602.01655
+4	2026
+CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning
+H Wu, Y Cai, Z Li, H Ge, B Sun, J Yuan, Y Wang
+arXiv preprint arXiv:2602.00181
+2026
+Self-Manager: Parallel Agent Loop for Long-form Deep Research
+Y Xu, Z Zheng, X Long, Y Cai, Y Wang
+arXiv preprint arXiv:2601.17879
+1	2026
+OptiSQL: Executable SQL Generation from Optical TokensOptiSQL: Executable SQL Generation from Optical Tokens
+S Li, H Chen, Y Cai, L Chen, Q Ye, Y Wang
+arXiv preprint arXiv:2601.13695
+2026
+Gated Differentiable Working Memory for Long-Context Language Modeling
+L Mei, S Liu, Y Wang, Y Ge, B Bi, J Yao, J Wan, Z Yin, J Guo, X Cheng
+arXiv preprint arXiv:2601.12906
+2026
+EchoFoley: Event-Centric Hierarchical Control for Video Grounded Creative Sound Generation
+B Li, Y Cui, Y He, Y Wang, S Zhang, L Wen, Y Niu
+arXiv preprint arXiv:2512.24731
+2025
+WavefrontDiffusion: Dynamic Decoding Schedule for Improved Reasoning
+H Yang, R Hu, Z Sun, R Zhou, Y Cai, Y Wang
+arXiv preprint arXiv:2511.19473
+2	2025
+Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs
+Z Sun, Y Cai, J Yao, Y Wang
+arXiv preprint arXiv:2511.13273
+1	2025
+Reward and Guidance through Rubrics: Promoting Exploration to Improve Multi-Domain Reasoning
+B Bi, S Liu, Y Wang, S Tong, L Mei, Y Ge, Y Xu, J Guo, X Cheng
+arXiv preprint arXiv:2511.12344
+5	2025
+PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs
+B Sun, Y Cai, MH Yang, H Wu, Y Wang
+arXiv preprint arXiv:2511.10979
+2025
+How to Make Large Language Models Generate 100% Valid Molecules?
+W Tao, J Tang, A Chan, B Hooi, B Bi, N Peng, Y Liu, Y Wang
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language …
+2	2025
+Dimo-gui: Advancing test-time scaling in gui grounding via modality-aware visual reasoning
+H Wu, H Chen, Y Cai, C Liu, Q Ye, MH Yang, Y Wang
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language …
+18	2025
+Understanding gui agent localization biases through logit sharpness
+X Tao, Y Wang, Y Cai, Z Yang, J Tang
+Findings of the Association for Computational Linguistics: EMNLP 2025, 23361 …
+7	2025
+Who is in the Spotlight: The Hidden Bias Undermining Multimodal Retrieval-Augmented Generation
+J Yao, S Liu, Y Wang, L Mei, B Bi, Y Ge, Z Li, X Cheng
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language …
+7*	2025
+SemVink: Advancing VLMs’ Semantic Understanding of Optical Illusions via Visual Global Thinking
+S Li, Y Cai, Y Wang
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language …
+1	2025
+Mapping the Minds of LLMs: A Graph-Based Analysis of Reasoning LLMs
+Z Xiong, Y Cai, Z Li, Y Wang
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language …
+17	2025
+AttnCache: Accelerating Self-Attention Inference for LLM Prefill via Attention Cache
+D Song, Y Feng, Y Wang, S Chen, C Guyot, F Blagojevic, H Jeon, P Su, ...
+arXiv preprint arXiv:2510.25979
+1	2025
+Mitigating Coordinate Prediction Bias from Positional Encoding Failures
+X Tao, Y Wang, Y Cai, Y Luo, J Tang
+arXiv preprint arXiv:2510.22102
+2025
+Vision Language Models Map Logos to Text via Semantic Entanglement in the Visual Projector
+S Li, H Chen, Y Cai, Q Ye, L Chen, J Yuan, Y Wang
+arXiv preprint arXiv:2510.12287
+2025
+Not in Sync: Unveiling Temporal Bias in Audio Chat Models
+J Yao, S Liu, Y Wang, R Cheng, L Mei, B Bi, Z Xiong, X Cheng
+arXiv preprint arXiv:2510.12185
+2025
+A survey of vibe coding with large language models
+Y Ge, L Mei, Z Duan, T Li, Y Zheng, Y Wang, L Wang, J Yao, T Liu, Y Cai, ...
+arXiv preprint arXiv:2510.12399
+22	2025
+Video-star: Reinforcing open-vocabulary action recognition with tools
+Z Yuan, X Qu, C Qian, R Chen, J Tang, L Sun, X Chu, D Zhang, Y Wang, ...
+arXiv preprint arXiv:2510.08480
+18	2025
+Detecting and mitigating insertion hallucination in video-to-audio generation
+L Chen, H Chen, Y Cai, S Li, Q Ye, Y Wang
+arXiv preprint arXiv:2510.08078
+2	2025
+ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations
+Y Wu, Y Wang, Y Cai
+arXiv preprint arXiv:2510.06292
+2025
+Peripheral memory for llms: Integration of sequential memory banks with adaptive querying
+S Zhai, Y Meng, Y Chen, Y Wang, G Qi
+Forty-second International Conference on Machine Learning
+4	2025
+Contextnav: Towards agentic multimodal in-context learning
+H Fu, Y Ouyang, KW Chang, Y Wang, Z Huang, Y Cai
+arXiv preprint arXiv:2510.04560
+3	2025
+Refineshot: Rethinking cinematography understanding with foundational skill evaluation
+H Wu, Y Cai, H Ge, H Chen, MH Yang, Y Wang
+arXiv preprint arXiv:2510.02423
+3	2025
+LLM-based multi-agent task planning for human-robot collaborative assembly balancing operator experience and efficiency
+B Wang, L Zheng, Y Wang, Z Qi
+Journal of Manufacturing Systems 82, 1020-1045
+13	2025
+Generalist Scanner Meets Specialist Locator: A Synergistic Coarse-to-Fine Framework for Robust GUI Grounding
+Z Li, G Song, Y Wang, Z Xiong, J Yuan, Y Cai
+arXiv preprint arXiv:2509.24133
+2025
+FrameMind: Frame-Interleaved Video Reasoning via Reinforcement Learning
+H Ge, Y Wang, KW Chang, H Wu, Y Cai
+arXiv preprint arXiv:2509.24008
+12	2025
+Visual CoT Makes VLMs Smarter but More Fragile
+C Xu, Y Wang, Y Cai, B Hooi, S Li
+arXiv preprint arXiv:2509.23789
+2025
+Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers
+Z Yang, Z Guo, Y Huang, Y Wang, Y Wang, X Liang, J Tang
+arXiv preprint arXiv:2509.23152
+2025
+Thinking with sound: Audio chain-of-thought enables multimodal reasoning in large audio-language models
+Z Xiong, Y Cai, Z Li, J Yuan, Y Wang
+arXiv preprint arXiv:2509.21749
+6	2025
+Video-to-BT: Generating Reactive Behavior Trees from Human Demonstration Videos for Robotic Assembly
+X Zhao, Y Wang, Y Wu, F Wu, T Sun, Z Miao, S Haddadin, A Knoll
+arXiv preprint arXiv:2509.16611
+1	2025
+Auto-slides: An interactive multi-agent system for creating and customizing research presentations
+Y Yang, W Jiang, Y Wang, Y Wang, C Zhang
+arXiv preprint arXiv:2509.11062
+6	2025
+Focusing by Contrastive Attention: Enhancing VLMs' Visual Reasoning
+Y Ge, S Liu, Y Wang, L Mei, B Bi, X Zhou, J Yao, J Guo, X Cheng
+arXiv preprint arXiv:2509.06461
+1	2025
+Blockwise sft for diffusion language models: Reconciling bidirectional attention and autoregressive decoding
+B Sun, Y Cai, MH Yang, Y Wang
+arXiv preprint arXiv:2508.19529
+3	2025
+Depth-breadth synergy in rlvr: Unlocking llm reasoning gains with adaptive exploration
+Z Yang, Z Guo, Y Huang, Y Wang, D Xie, H Li, Y Wang, X Liang, J Tang
+arXiv preprint arXiv:2508.13755
+22	2025
+Mrfd: Multi-region fusion decoding with self-consistency for mitigating hallucinations in lvlms
+H Ge, Y Wang, MH Yang, Y Cai
+arXiv preprint arXiv:2508.10264
+5	2025
+Cure or poison? embedding instructions visually alters hallucination in vision-language models
+Z Wang, Y Wang, Y Cai
+arXiv preprint arXiv:2508.01678
+2	2025
+: Advancing Img2LaTeX Conversion via Visual Reasoning with Attention-Guided Refinement
+Z Li, G Song, Y Wang, Z Xiong, J Yuan, Y Cai
+arXiv preprint arXiv:2507.20890
+1	2025
+Unveiling the potential of diffusion large language model in controllable generation
+Z Xiong, Y Cai, Z Li, Y Wang
+arXiv preprint arXiv:2507.04504
+11	2025
+Refinex: Learning to refine pre-training data at scale from expert-guided programs
+B Bi, S Liu, X Ren, D Liu, J Lin, Y Wang, L Mei, J Fang, J Guo, X Cheng
+arXiv preprint arXiv:2507.03253
+8	2025
+Symbolic or numerical? understanding physics problem solving in reasoning llms
+N Dan, Y Cai, Y Wang
+arXiv preprint arXiv:2507.01334
+2	2025
+Decoding by contrasting knowledge: Enhancing large language model confidence on edited facts
+B Bi, S Liu, L Mei, Y Wang, J Fang, P Ji, X Cheng
+Proceedings of the 63rd Annual Meeting of the Association for Computational …
+4	2025
+Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?
+Y Ge, S Liu, B Bi, Y Wang, L Mei, W Feng, L Chen, X Cheng
+Proceedings of the 63rd Annual Meeting of the Association for Computational …
+10	2025
+Metal: A multi-agent framework for chart generation with test-time scaling
+B Li, Y Wang, J Gu, KW Chang, N Peng
+Proceedings of the 63rd Annual Meeting of the Association for Computational …
+28	2025
+Vulnerability of text-to-image models to prompt template stealing: A differential evolution approach
+Y Wu, F Mu, Q Zhang, J Zhao, X Xu, L Mei, Y Wu, L Shi, J Wang, Z Ding, ...
+Findings of the Association for Computational Linguistics: ACL 2025, 16903-16916
+2	2025
+Mitigating lost-in-retrieval problems in retrieval augmented multi-hop question answering
+R Zhu, X Liu, Z Sun, Y Wang, W Hu
+Proceedings of the 63rd Annual Meeting of the Association for Computational …
+20	2025
+Drs: Deep question reformulation with structured output
+Z Li, Y Wang, B Hooi, Y Cai, N Peng, KW Chang
+Findings of the Association for Computational Linguistics: ACL 2025, 12869-12882
+6	2025
+Context-dpo: Aligning language models for context-faithfulness
+B Bi, S Huang, Y Wang, T Yang, Z Zhang, H Huang, L Mei, J Fang, Z Li, ...
+Findings of the Association for Computational Linguistics: ACL 2025, 10280-10300
+39	2025
+Vulnerability of llms to vertically aligned text manipulations
+Z Li, Y Wang, B Hooi, Y Cai, Z Xiong, N Peng, KW Chang
+Proceedings of the 63rd Annual Meeting of the Association for Computational …
+9	2025
+Answer-Centric or Reasoning-Driven? Uncovering the Latent Memory Anchor in LLMs
+Y Wu, Y Zhang, Y Wang, Y Cai, Y Wu, Y Wang, N Xu, J Cheng
+arXiv preprint arXiv:2506.17630
+2	2025
+Structured attention matters to multimodal llms in document understanding
+C Liu, H Chen, Y Cai, H Wu, Q Ye, MH Yang, Y Wang
+arXiv preprint arXiv:2506.21600
+9	2025
+Toward Rich Video Human-Motion2D Generation
+R Xi, X Wang, Y Li, S Li, Z Wang, Y Wang, F Wei, C Zhao
+arXiv preprint arXiv:2506.14428
+1	2025
+BRIGHT+: upgrading the BRIGHT benchmark with marcus, a multi-agent RAG clean-up suite
+L Chen, Y Cai, J Dong, Y Wang
+arXiv preprint arXiv:2506.07116
+3	2025
+Treerpo: Tree relative policy optimization
+Z Yang, Z Guo, Y Huang, X Liang, Y Wang, J Tang
+arXiv preprint arXiv:2506.05183
+31	2025
+Stdr: Spatio-temporal decoupling for real-time dynamic scene rendering
+Z Li, H Jiang, Y Cai, J Chen, B Bi, S Gao, H Zhao, Y Wang, T Mao, Z Wang
+arXiv preprint arXiv:2505.22400
+6	2025
+When can large reasoning models save thinking? mechanistic analysis of behavioral divergence in reasoning
+R Zhu, Y Liu, Z Sun, Y Wang, W Hu
+arXiv preprint arXiv:2505.15276
+7	2025
+Draftattention: Fast video diffusion via low-resolution attention guidance
+X Shen, C Han, Y Zhou, Y Xie, Y Gong, Q Wang, Y Wang, Y Wang, ...
+arXiv preprint arXiv:2505.14708
+11	2025
+Fastcar: Cache attentive replay for fast auto-regressive video generation on the edge
+X Shen, W Ma, Y Zhou, E Tang, Y Xie, Z Li, Y Gong, Q Wang, H Ding, ...
+arXiv preprint arXiv:2505.14709
+9	2025
+Token-efficient prompt injection attack: Provoking cessation in llm reasoning via adaptive token compression
+Y Cui, Y Cai, Y Wang
+arXiv preprint arXiv:2504.20493
+4	2025
+a1: Steep test-time scaling law via environment augmented generation
+L Mei, S Liu, Y Wang, B Bi, Y Ge, J Wan, Y Wu, X Cheng
+arXiv preprint arXiv:2504.14597
+11	2025
+Do" New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
+S Li, Y Cai, B Hooi, N Peng, Y Wang
+arXiv preprint arXiv:2504.03786
+1	2025
+Text speaks louder than vision: Ascii art reveals textual biases in vision-language models
+Z Wang, B Hooi, Y Wang, MH Yang, Z Huang, Y Cai
+arXiv preprint arXiv:2504.01589
+7	2025
+How does Watermarking Affect Visual Language Models in Document Understanding?
+C Xu, Y Wang, B Hooi, Y Cai, S Li
+arXiv preprint arXiv:2504.01048
+1	2025
+Tricking retrievers with influential tokens: An efficient black-box corpus poisoning attack
+C Wang, Y Wang, Y Cai, B Hooi
+Proceedings of the 2025 Conference of the Nations of the Americas Chapter of …
+5	2025
+Texture or semantics? vision-language models get lost in font recognition
+Z Li, G Song, Y Cai, Z Xiong, J Yuan, Y Wang
+arXiv preprint arXiv:2503.23768
+12	2025
+Process or result? manipulated ending tokens can mislead reasoning llms to ignore the correct reasoning steps
+Y Cui, B Hooi, Y Cai, Y Wang
+arXiv preprint arXiv:2503.19326
+6	2025
+Mirage: Multimodal immersive reasoning and guided exploration for red-team jailbreak attacks
+W You, B Hooi, Y Wang, Y Wang, Z Ke, MH Yang, Z Huang, Y Cai
+arXiv preprint arXiv:2503.19134
+9	2025
+Parameters vs. context: Fine-grained control of knowledge reliance in language models
+B Bi, S Liu, Y Wang, Y Xu, J Fang, L Mei, X Cheng
+arXiv preprint arXiv:2503.15888
+36	2025
+Making every step effective: Jailbreaking large vision-language models through hierarchical kv equalization
+S Hao, Y Wang, B Hooi, J Liu, M Chen, Z Huang, Y Cai
+arXiv preprint arXiv:2503.11750
+3	2025
+Tit-for-Tat: Safeguarding Large Vision-Language Models Against Jailbreak Attacks via Adversarial Defense
+S Hao, Y Wang, B Hooi, MH Yang, J Liu, C Tang, Z Huang, Y Cai
+arXiv preprint arXiv:2503.11619
+1	2025
+Structured outputs enable general-purpose llms to be medical experts
+G Guo, K Zhang, B Hoo, Y Cai, X Lu, N Peng, Y Wang
+arXiv preprint arXiv:2503.03194
+4	2025
+Innate reasoning is not enough: In-context learning enhances reasoning large language models with less overthinking
+Y Ge, S Liu, Y Wang, L Mei, L Chen
+Innate reasoning is not enough: In-context learning enhances reasoning large …
+15*	2025
+Fact or Guesswork? Evaluating Large Language Models' Medical Knowledge with Structured One-Hop Judgments
+J Li, Y Wang, K Zhang, Y Cai, B Hooi, N Peng, KW Chang, J Lu
+arXiv preprint arXiv:2502.14275
+6	2025
+Enhancing llm character-level manipulation via divide and conquer
+Z Xiong, Y Cai, B Hooi, N Peng, Z Li, Y Wang
+arXiv preprint arXiv:2502.08180
+4	2025
+Efficiently Disentangling CLIP for Multi-Object Perception
+S Rawlekar, Y Cai, Y Wang, MH Yang, N Ahuja
+arXiv preprint arXiv:2502.02977
+1	2025
+Lost in Edits? A -Compass for AIGC Provenance
+W You, B Hooi, Y Wang, E Choo, MH Yang, J Yuan, Z Huang, Y Cai
+arXiv preprint arXiv:2502.04364
+1	2025
+Disentangling clip features for enhanced localized understanding
+S Rawelekar, Y Cai, Y Wang, MH Yang, N Ahuja
+arXiv e-prints, arXiv: 2502.02977
+1	2025
+Baolong Bi, Yujun Cai, Jiazhi Liu, Mingyu Li, Zhong-Zhi Li, Duzhen Zhang, et al. A survey of context engineering for large language models
+L Mei, J Yao, Y Ge, Y Wang
+arXiv preprint arXiv:2507.13334 3
+35	2025
+A survey of context engineering for large language models
+L Mei, J Yao, Y Ge, Y Wang, Y Cai, J Liu, M Li, ZZ Li, D Zhang, C Zhou, ...
+132*	2025
+Con-ReCall: Detecting Pre-training Data in LLMs via Contrastive Decoding
+C Wang, Y Wang, B Hooi, Y Cai, N Peng, KW Chang
+Proceedings of the 31st International Conference on Computational …
+19	2025
+Vulnerability of Large Language Models to Output Prefix Jailbreaks: Impact of Positions on Safety
+Y Wang, M Chen, N Peng, KW Chang
+Proceedings of the 2025 Conference of the North American Chapter of the …
+8*	2025
+MQuAKE-Remastered: Multi-Hop Knowledge Editing Can Only Be Advanced With Reliable Evaluations
+S Zhong, Y Lu, L Shao, B Bhushanam, X Du, L Feng, Y Wan, Y Shi, D Zha, ...
+International Conference on Learning Representations (ICLR)
+4	2025
+OptiBench meets ReSocratic: Measure and improve LLMs for optimization modeling
+Z Yang, Y Wang, Y Huang, Z Guo, W Shi, X Han, L Feng, L Song, X Liang, ...
+International Conference on Learning Representations (ICLR)
+63	2025
+Is Factuality Enhancement a Free Lunch For LLMs? Better Factuality Can Lead to Worse Context-Faithfulness
+B Bi, S Liu, Y Wang, L Mei, J Fang, H Gao, S Ni, X Cheng
+International Conference on Learning Representations (ICLR)
+17	2025
+Are LLMs Really Not Knowledgable? Mining the Submerged Knowledge in LLMs' Memory
+X Tao, Y Wang, Y Cai, Z Yang, J Tang
+arXiv preprint arXiv:2412.20846
+3	2024
+文章 1–100
+隐私权条款帮助

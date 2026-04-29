@@ -200,18 +200,9 @@ The **inter-microphone time delay** encodes complete spatial information — yet
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-gray-700">
+<div class="flex items-center justify-center">
 
-```
-Sound source →→→→→→→→
-              ↓
-    🎤 Microphone Array 🎤
-     [Time delay = Direction]
-              ↓
-      Model output: ❓
-```
-
-The time delay is discarded; spatial information vanishes.
+<img src="/Image/fig_4.png" class="w-full object-contain max-h-64" />
 
 </div>
 

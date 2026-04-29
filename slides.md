@@ -43,7 +43,7 @@ April 2026
 → These three questions are, fundamentally, the same question.
 </div>
 
-<img v-click src="/Image/fig_1.png" class="mt-4 w-full object-contain max-h-56" />
+<img v-click src="/Image/fig_1.png" class="mt-4 w-full object-contain max-h-72" />
 
 </div>
 

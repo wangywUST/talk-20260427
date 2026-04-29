@@ -195,7 +195,6 @@ Multi-source constraints cover: cross-modal (visual + audio) and cross-sensor (m
 - Accuracy approaches random-chance level
 
 ### Physical Interpretation
-
 The **inter-microphone time delay** encodes complete spatial information — yet the model does not use it at all.
 
 </div>
@@ -232,23 +231,13 @@ Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs. Zhe Sun, 
 - The bias does not improve with model scale
 
 ### Physical Interpretation
-
 Audio and video describe **the same physical event** — temporal inconsistency means the model has lost the physical causal chain.
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-gray-700">
+<div class="flex items-center justify-center">
 
-```
-Ground-truth timeline:  ─────●─────
-                              ↑
-                         Event occurs
-
-Model perception:        ─────────●─
-                                  ↑
-                             Event detected
-                             [Systematic delay]
-```
+<img src="/Image/fig_5.png" class="w-full object-contain max-h-64" />
 
 </div>
 

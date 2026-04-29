@@ -11,6 +11,7 @@
 .slidev-layout h3,
 .slidev-layout h4 {
   color: #7c5cbf !important;
+  margin-bottom: 0.25rem !important;
 }
 
 .slidev-layout strong {

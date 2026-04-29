@@ -8,7 +8,8 @@
   color: #1a1a1a !important;
 }
 
-.slidev-layout h3 {
+.slidev-layout h3,
+.slidev-layout h4 {
   color: #7c5cbf !important;
 }
 

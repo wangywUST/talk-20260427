@@ -27,23 +27,23 @@ April 2026
 
 ---
 
-<div class="flex flex-col h-full pt-8">
+<div class="flex flex-col h-full pt-4">
 
 <v-clicks>
 
-<div class="text-lg font-bold mb-3">① &nbsp;Given multiple microphones, can we tell where a sound is coming from?</div>
+<div class="text-base font-bold mb-2">① &nbsp;Given multiple microphones, can we tell where a sound is coming from?</div>
 
-<div class="text-lg font-bold mb-3">② &nbsp;Given a video, can AI tell whether the camera is pushing forward or rotating?</div>
+<div class="text-base font-bold mb-2">② &nbsp;Given a video, can AI tell whether the camera is pushing forward or rotating?</div>
 
-<div class="text-lg font-bold mb-3">③ &nbsp;Given an underwater sonar array, can AI reconstruct a target's position from multi-transducer signals?</div>
+<div class="text-base font-bold mb-2">③ &nbsp;Given an underwater sonar array, can AI reconstruct a target's position from multi-transducer signals?</div>
 
 </v-clicks>
 
-<div v-click class="mt-2 text-base text-gray-500 italic">
+<div v-click class="mt-1 text-sm text-gray-500 italic">
 → These three questions are, fundamentally, the same question.
 </div>
 
-<img v-click src="/Image/fig_1.png" class="mt-4 w-full object-contain max-h-72" />
+<img v-click src="/Image/fig_1.png" class="mt-3 w-full object-contain max-h-72" />
 
 </div>
 

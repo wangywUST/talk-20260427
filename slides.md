@@ -2,7 +2,7 @@
 theme: dracula
 title: Signal is Physics
 info: |
-  组会汇报 · 2026
+  Group Meeting Talk · 2026
 highlighter: shiki
 drawings:
   persist: false
@@ -17,10 +17,10 @@ fonts:
 # Signal is Physics
 ## Structured Reasoning for Multimodal World Understanding
 
-**作者姓名** · University of California, Merced
+**Author Name** · University of California, Merced
 
 <div class="pt-4 text-gray-400">
-2026年X月X日 · 组会
+April 2026 · Group Meeting
 </div>
 
 <img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />
@@ -31,16 +31,16 @@ layout: center
 
 <v-clicks>
 
-<div class="text-3xl font-bold mb-8">多个麦克风，能判断声源在哪个方向吗？</div>
+<div class="text-3xl font-bold mb-8">Given multiple microphones, can we tell where a sound is coming from?</div>
 
-<div class="text-3xl font-bold mb-8">一段视频，AI 能感知摄像机在向前推进还是在旋转吗？</div>
+<div class="text-3xl font-bold mb-8">Given a video, can AI tell whether the camera is pushing forward or rotating?</div>
 
-<div class="text-3xl font-bold mb-8">水下声纳阵列，AI 能从多个换能器的信号里重建目标位置吗？</div>
+<div class="text-3xl font-bold mb-8">Given an underwater sonar array, can AI reconstruct a target's position from multi-transducer signals?</div>
 
 </v-clicks>
 
 <div v-click class="pt-6 text-center text-xl text-gray-500">
-这三个问题，本质上是同一个问题
+These three questions are, fundamentally, the same question.
 </div>
 
 ---
@@ -51,198 +51,194 @@ layout: center
 
 <v-clicks>
 
-<div class="text-2xl mt-8">音频 　＝　压力波的时空编码</div>
+<div class="text-2xl mt-8">Audio &nbsp;=&nbsp; Spatiotemporal encoding of pressure waves</div>
 
-<div class="text-2xl mt-6">图像 　＝　光场的二维投影</div>
+<div class="text-2xl mt-6">Image &nbsp;=&nbsp; 2D projection of a light field</div>
 
-<div class="text-2xl mt-6">视频 　＝　时空动力学的连续采样</div>
+<div class="text-2xl mt-6">Video &nbsp;=&nbsp; Continuous sampling of spatiotemporal dynamics</div>
 
 </v-clicks>
 
 <div v-click class="pt-8 text-center text-lg text-gray-500">
-信号的结构，就是物理规律的结构
+The structure of a signal is the structure of physical law.
 </div>
 
 ---
 layout: two-cols
 ---
 
-# 但模型真的这样理解吗？
+# Do Models Really Understand This?
 
-### 当前模型的处理方式
+### How Current Models Work
 
-统计模式匹配
+Statistical pattern matching
 
-- 见过类似输入 → 输出类似结果
-- 不依赖物理先验
-- 在分布外场景系统性失败
+- Similar input seen before → similar output
+- No physical prior
+- Systematic failure on out-of-distribution cases
 
 ::right::
 
 <div class="mt-14"></div>
 
-### 我们的主张
+### Our Claim
 
-信号 = 物理过程的编码，应被如此推理
+Signals are encodings of physical processes and should be reasoned about as such.
 
-- 每一步推理对应一个物理操作
-- 多源信号必须相互自洽
-- 推理过程可解释、可验证
+- Each reasoning step maps to a physical operation
+- Multi-source signals must be mutually consistent
+- Reasoning is interpretable and verifiable
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-center text-gray-700">
-类比：背答案的学生 vs 理解公式的学生
+Analogy: Memorizing answers vs. understanding the formula
 </div>
 
 <div class="mt-4 text-center text-gray-500">
-→ 这就是结构化推理要解决的问题
+→ This is the problem structured reasoning is built to solve.
 </div>
 
 ---
 
-# Part 1 · 感知不等于理解
+# Part 1 · Perception ≠ Understanding
 
 ---
 
-# 当前多模态 AI 的能力边界
+# The Capability Boundary of Current Multimodal AI
 
-### 已有的成就
+### What Models Have Achieved
 
-- 图像识别、图文生成：接近甚至超越人类
-- 视频问答、跨模态检索：显著进展
-- 语音理解与音频生成：快速突破
+- Image recognition and generation: near or beyond human-level
+- Video QA and cross-modal retrieval: rapid progress
+- Speech understanding and audio generation: fast breakthroughs
 
 <div class="mt-6 p-4 border-l-4 border-red-400 bg-red-50 text-gray-700">
 
-### 但在物理约束推理上，存在系统性缺陷
+### But There Are Systematic Failures in Physical Constraint Reasoning
 
-- 无法感知声源的空间运动方向
-- 音视频时间戳系统性不对齐
-- 推理链越长反而越容易偏离物理事实
+- Cannot perceive the spatial motion direction of a sound source
+- Systematic temporal misalignment between audio and video
+- Longer reasoning chains can drift further from physical truth
 
 </div>
 
 <div class="mt-4 text-gray-500 text-center">
-规模和数据量不能解决物理理解的缺失
+Scale and data alone cannot fix a missing understanding of physics.
 </div>
 
 ---
 
-# 什么是物理约束？
+# What Are Physical Constraints?
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 
 <div class="p-4 border rounded">
 
-### 空间约束
+### Spatial Constraints
 
-透视、遮挡、视差
+Perspective, occlusion, parallax
 
-物体在三维空间中的位置关系在二维图像上留下确定性痕迹
-
-</div>
-
-<div class="p-4 border rounded">
-
-### 时间约束
-
-运动连贯性、因果顺序
-
-物理事件在时间轴上必须满足因果律，不能倒转
+The 3D spatial layout of objects leaves deterministic traces in 2D images.
 
 </div>
 
 <div class="p-4 border rounded">
 
-### 多源约束
+### Temporal Constraints
 
-同一物理事件在多个信号源上的观测结论必须自洽
+Motion continuity, causal order
+
+Physical events on the time axis must obey causality — they cannot be reversed.
+
+</div>
+
+<div class="p-4 border rounded">
+
+### Multi-source Constraints
+
+Observations of the same physical event across multiple signal sources must be mutually consistent.
 
 </div>
 
 </div>
 
 <div class="mt-6 text-gray-500 text-sm">
-多源约束涵盖：跨模态（视觉＋音频）和跨传感器（多麦克风 / 多摄像机 / 多换能器）
+Multi-source constraints cover: cross-modal (visual + audio) and cross-sensor (multi-microphone / multi-camera / multi-transducer).
 </div>
 
 ---
 
-# 证据① · 听觉空间盲区
+# Evidence 1 · Spatial Blind Spot
 
-## Spatial Blind Spot
-
-**Audio LLMs 无法感知声源运动方向**
+## Audio LLMs Cannot Perceive Sound Source Direction
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 核心发现
+### Key Finding
 
-- 当声源从左向右移动时，模型几乎无法判断方向
-- 准确率接近随机猜测水平
+- When a sound source moves from left to right, the model can barely determine the direction
+- Accuracy approaches random-chance level
 
-### 物理解读
+### Physical Interpretation
 
-多麦克风的**时延差**里藏着完整的空间信息，但模型完全没有利用
+The **inter-microphone time delay** encodes complete spatial information — yet the model does not use it at all.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-gray-700">
 
 ```
-声源 →→→→→→→→
-         ↓
-  🎤 麦克风阵列 🎤
-   [时延差 = 方向信息]
-         ↓
-   模型输出：❓
+Sound source →→→→→→→→
+              ↓
+    🎤 Microphone Array 🎤
+     [Time delay = Direction]
+              ↓
+      Model output: ❓
 ```
 
-时延差被丢弃，空间信息消失
+The time delay is discarded; spatial information vanishes.
 
 </div>
 
 </div>
 
 <div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
-结论：模型在听，但没有在推理空间
+Conclusion: The model is listening, but not reasoning about space.
 </div>
 
 ---
 
-# 证据② · 时间不同步
+# Evidence 2 · Not in Sync
 
-## Not in Sync
-
-**Audio Chat Models 的系统性时间偏差**
+## Systematic Temporal Bias in Audio Chat Models
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 核心发现
+### Key Finding
 
-- 模型对音频事件的时间定位存在显著系统性偏差
-- 偏差不随模型规模改善
+- Models show a significant, systematic bias in localizing audio events in time
+- The bias does not improve with model scale
 
-### 物理解读
+### Physical Interpretation
 
-音频和视频描述的是**同一物理事件**，时间上不自洽说明模型丢失了物理因果链
+Audio and video describe **the same physical event** — temporal inconsistency means the model has lost the physical causal chain.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-gray-700">
 
 ```
-真实时间轴:  ─────●─────
-                  ↑
-              物理事件发生
+Ground-truth timeline:  ─────●─────
+                              ↑
+                         Event occurs
 
-模型感知轴:  ─────────●─
-                      ↑
-                  感知到事件
-                  [系统性延迟]
+Model perception:        ─────────●─
+                                  ↑
+                             Event detected
+                             [Systematic delay]
 ```
 
 </div>
@@ -250,12 +246,12 @@ layout: two-cols
 </div>
 
 <div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
-结论：模型看到了帧，但丢失了时序的物理意义
+Conclusion: The model sees the frames, but loses the physical meaning of temporal order.
 </div>
 
 ---
 
-# 证据③ · 视觉推理的脆弱性
+# Evidence 3 · Fragile Visual Reasoning
 
 ## Visual CoT Makes VLMs Smarter but More Fragile
 
@@ -263,29 +259,29 @@ layout: two-cols
 
 <div>
 
-### 核心发现
+### Key Finding
 
-- 加入视觉推理链后，整体准确率提升
-- 但同时引入了新的、系统性的错误模式
-- 推理步骤越多，某类错误越严重
+- Adding visual chain-of-thought improves overall accuracy
+- But it simultaneously introduces new, systematic error patterns
+- More reasoning steps → certain errors become worse
 
-### 物理解读
+### Physical Interpretation
 
-推理链没有锚定在物理约束上，所以越推越偏
+The reasoning chain is not anchored to physical constraints, so the longer it runs, the more it drifts.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-gray-700">
 
 ```
-Step 1: 观察场景 ✓
-Step 2: 推断关系 ✓
-Step 3: 得出结论 ✗ ← 累积偏差
+Step 1: Observe scene       ✓
+Step 2: Infer relation      ✓
+Step 3: Conclude            ✗  ← Error accumulates
 
-vs 物理约束锚定:
-Step 1: 观察场景 ✓
-Step 2: 校验物理一致性 ✓
-Step 3: 得出结论 ✓
+vs. Physics-anchored:
+Step 1: Observe scene       ✓
+Step 2: Verify consistency  ✓
+Step 3: Conclude            ✓
 ```
 
 </div>
@@ -293,37 +289,36 @@ Step 3: 得出结论 ✓
 </div>
 
 <div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
-结论：更多推理步骤 ≠ 更好的物理理解
+Conclusion: More reasoning steps ≠ better physical understanding.
 </div>
 
 ---
 layout: center
 ---
 
-# 问题框架定义
+# Problem Framework
 
 <div class="grid grid-cols-3 gap-4 mt-8">
 
 <div class="p-4 border-2 border-blue-400 rounded text-center">
 
-### 上层
-结构化推理
+### Top Layer
 Structured Reasoning
 
 </div>
 
 <div class="p-4 border-2 border-green-400 rounded text-center">
 
-### 中层
-多源信号
+### Middle Layer
+Multi-source Signals
+
 Audio · Visual · Temporal · Sensor Array
 
 </div>
 
 <div class="p-4 border-2 border-gray-400 rounded text-center">
 
-### 底层
-物理世界
+### Bottom Layer
 Physical World
 
 </div>
@@ -332,33 +327,33 @@ Physical World
 
 <div class="mt-8 p-4 bg-red-50 border-l-4 border-red-400 text-gray-700">
 
-**当前模型的问题**：中层到上层之间，缺乏物理先验的注入
+**The problem with current models**: the transition from middle layer to top layer lacks injection of physical priors.
 
-这就是我们工作的起点
+This is where our work begins.
 
 </div>
 
 ---
 
-# Part 2 · 结构化推理与多源一致性
+# Part 2 · Structured Reasoning & Multi-source Consistency
 
 ---
 
-# 结构化推理的三种形式
+# Three Forms of Structured Reasoning
 
-| 形式 | 机制 | 代表工作 |
-|------|------|--------|
-| 推理链 | 每步推理对应一个物理操作 | ViewFusion, Thinking with Sound |
-| 路径选择 | RL 学习物理一致的推理顺序 | CamReasoner, AudioRouter |
-| 结构注入 | 外部物理约束硬编码入推理 | PAS |
+| Form | Mechanism | Representative Work |
+|------|-----------|-------------------|
+| Reasoning Chain | Each step maps to a physical operation | ViewFusion, Thinking with Sound |
+| Path Selection | RL learns physically consistent reasoning order | CamReasoner, AudioRouter |
+| Structure Injection | Hard-coded physical constraints injected into reasoning | PAS |
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-gray-700">
 
-**三种形式的共同点**
+**What all three share**
 
-推理过程对物理约束是**透明的、可解释的**
+The reasoning process is **transparent and interpretable** with respect to physical constraints.
 
-每一步都能回答：这一步在做什么物理操作？
+Every step can answer: what physical operation is this step performing?
 
 </div>
 
@@ -366,108 +361,108 @@ Physical World
 layout: center
 ---
 
-# Multi-source Consistency 是什么？
+# What Is Multi-source Consistency?
 
 <div class="mt-4 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-核心原则：物理世界是唯一的，任何对它的多次独立观测，结论必须自洽
+Core principle: The physical world is singular. Any set of independent observations of it must yield mutually consistent conclusions.
 </div>
 
 <div class="mt-6 font-mono text-sm p-4 bg-gray-100 rounded text-gray-700">
 
 ```
-视觉推理链     ──┐
-音频推理链     ──┤
-多麦克风阵列   ──┼──→  一致性校验  ──→  物理真实性确认
-多视角摄像机   ──┤          ↑
-水声换能器阵列 ──┘     不一致 → 重新推理
+Visual reasoning chain    ──┐
+Audio reasoning chain     ──┤
+Microphone array          ──┼──→  Consistency Check  ──→  Physical Truth Confirmed
+Multi-view cameras        ──┤              ↑
+Underwater transducers    ──┘     Inconsistent → Re-reason
 ```
 
 </div>
 
 <div class="mt-6 text-center text-gray-500">
-类比：法庭上的多位独立证人，证词高度吻合才可信
+Analogy: Multiple independent witnesses in court — consistent testimony is credible; contradiction reveals the flaw.
 
-**不一致的地方，就是推理出错的地方**
+**Where inconsistency appears is where reasoning went wrong.**
 </div>
 
 ---
 
-# Part 3 · 空间推理
+# Part 3 · Spatial Reasoning
 
 ---
 
-# 空间推理的挑战
+# The Challenge of Spatial Reasoning
 
-### 为什么空间推理难？
+### Why Is Spatial Reasoning Hard?
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 
 <div class="p-4 border rounded text-center">
-**单帧信息不足**
+**Insufficient Single-frame Information**
 
-深度信息在投影中丢失，单张图像无法确定三维位置
+Depth is lost in projection; a single image cannot determine 3D position.
 </div>
 
 <div class="p-4 border rounded text-center">
-**视角依赖**
+**Viewpoint Dependence**
 
-同一场景，不同视角下空间关系的语言描述完全不同
+The same scene leads to completely different spatial descriptions from different viewpoints.
 </div>
 
 <div class="p-4 border rounded text-center">
-**遮挡**
+**Occlusion**
 
-物体互相遮挡，不可见部分的空间关系只能从约束推断
+Spatial relations of hidden parts can only be inferred from constraints.
 </div>
 
 </div>
 
 <div class="mt-8 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 
-**我们的思路**：用结构化推理链显式表达空间关系
+**Our approach**: use structured reasoning chains to make spatial relations explicit.
 
-→ 这是 Signal is Physics 在视觉通道上的具体实现
+→ This is Signal is Physics instantiated on the visual channel.
 
 </div>
 
 ---
 
-# ViewFusion · 多视角空间推理链
+# ViewFusion · Multi-view Spatial Reasoning Chain
 
 <div class="grid grid-cols-2 gap-8 mt-4">
 
 <div>
 
-### 任务
+### Task
 
-多视角下的空间关系问答
+Spatial relation QA under multi-view settings
 
-### 核心创新
+### Core Innovation
 
 Structured Spatial Thinking Chain
 
-每一步推理对应一个空间几何操作，推理链可验证
+Each reasoning step maps to a spatial geometric operation and is verifiable.
 
-### 定量结果
+### Results
 
-在多视角空间推理基准上显著超越 baseline
+Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
 
 ```
-输入：摄像机 A、B、C 的图像
-         ↓
-Step 1: 确定各视角坐标系
-         ↓
-Step 2: 识别目标在各视角的位置
-         ↓
-Step 3: 三角化，确定三维位置
-         ↓
-Step 4: 推断空间关系
-         ↓
-输出：空间关系答案 ✓
+Input: Images from cameras A, B, C
+              ↓
+Step 1: Establish coordinate frames
+              ↓
+Step 2: Locate target in each view
+              ↓
+Step 3: Triangulate to 3D position
+              ↓
+Step 4: Infer spatial relation
+              ↓
+Output: Spatial relation answer ✓
 ```
 
 </div>
@@ -475,41 +470,41 @@ Step 4: 推断空间关系
 </div>
 
 <div class="mt-4 text-gray-500 text-sm">
-Multi-source 视角：多个摄像机 ＝ 多个传感器对同一空间的独立采样
+Multi-source view: multiple cameras = multiple sensors independently sampling the same space.
 </div>
 
 ---
 
-# ViewFusion 的物理意义
+# ViewFusion · Physical Significance
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 
 <div>
 
-### 推理步骤 → 物理操作
+### Reasoning Step → Physical Operation
 
-| 推理步骤 | 对应物理操作 |
-|---------|------------|
-| 坐标系对齐 | 外参矩阵变换 |
-| 深度估计 | 单目深度约束 |
-| 三角化 | 多视角几何 |
-| 关系推断 | 三维空间运算 |
+| Reasoning Step | Physical Operation |
+|---------------|-------------------|
+| Coordinate alignment | Extrinsic matrix transform |
+| Depth estimation | Monocular depth constraint |
+| Triangulation | Multi-view geometry |
+| Relation inference | 3D spatial computation |
 
 </div>
 
 <div>
 
-### 多源一致性的体现
+### Multi-source Consistency
 
-不同视角的推理结论必须几何自洽
+Conclusions from different viewpoints must be geometrically consistent.
 
 ```
-视角 A 推断："目标在左前方"
-视角 B 推断："目标在右后方"
-        ↓
-几何约束校验：矛盾！
-        ↓
-推理链重新校正
+View A infers: "target is front-left"
+View B infers: "target is back-right"
+          ↓
+Geometric constraint check: Contradiction!
+          ↓
+Reasoning chain self-corrects
 ```
 
 </div>
@@ -517,39 +512,39 @@ Multi-source 视角：多个摄像机 ＝ 多个传感器对同一空间的独�
 </div>
 
 <div class="mt-6 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-结论：推理结构是空间物理约束的语言表达
+Conclusion: The reasoning structure is the linguistic expression of spatial physical constraints.
 </div>
 
 ---
 
-# CamReasoner · 摄像机运动理解
+# CamReasoner · Camera Motion Understanding
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 任务
+### Task
 
-视频中的摄像机运动语义分类
+Semantic classification of camera motion in video
 
-### 核心创新
+### Core Innovation
 
-RL 驱动的结构化空间推理
+RL-driven structured spatial reasoning
 
-模型学会选择与物理运动规律一致的推理路径
+The model learns to select reasoning paths consistent with physical motion laws.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-gray-700">
 
-### 运动类型的几何含义
+### Geometric Meaning of Motion Types
 
-| 运动类型 | 物理几何含义 |
-|--------|------------|
-| 推镜 (Push) | 焦距不变，摄像机前移 |
-| 拉镜 (Pull) | 焦距不变，摄像机后退 |
-| 旋转 (Pan) | 光心不动，光轴旋转 |
-| 变焦 (Zoom) | 光心不动，焦距变化 |
+| Motion Type | Physical / Geometric Meaning |
+|------------|------------------------------|
+| Push (Dolly in) | Camera translates forward, focal length fixed |
+| Pull (Dolly out) | Camera translates backward, focal length fixed |
+| Pan / Tilt | Optical center fixed, optical axis rotates |
+| Zoom | Optical center fixed, focal length changes |
 
 </div>
 
@@ -557,15 +552,15 @@ RL 驱动的结构化空间推理
 
 ---
 
-# CamReasoner 的物理意义
+# CamReasoner · Physical Significance
 
 <div class="mt-8">
 
-### 摄像机运动是物理约束最直接的视觉载体
+### Camera Motion Is the Most Direct Visual Carrier of Physical Constraints
 
-摄像机的每一种运动，都对应确定的三维几何变换
+Every camera motion corresponds to a deterministic 3D geometric transformation.
 
-视频帧序列必须与这种几何变换在物理上自洽
+The video frame sequence must be physically consistent with that transformation.
 
 </div>
 
@@ -573,50 +568,50 @@ RL 驱动的结构化空间推理
 
 <div class="p-4 border rounded">
 
-### RL 的作用
+### Role of RL
 
-不是学"什么答案对"，而是学"什么推理路径与物理运动规律一致"
+Not learning "which answer is correct", but learning "which reasoning path is consistent with physical motion laws".
 
 </div>
 
 <div class="p-4 border rounded">
 
-### 收益
+### Benefit
 
-错误的推理路径会因为违反物理约束而被惩罚，模型被迫学习物理规律
+Reasoning paths that violate physical constraints are penalized, forcing the model to internalize physical laws.
 
 </div>
 
 </div>
 
 <div class="mt-6 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-结论：理解摄像机运动，是理解视觉物理的第一步
+Conclusion: Understanding camera motion is the first step toward understanding visual physics.
 </div>
 
 ---
 
-# 空间推理小结
+# Spatial Reasoning — Summary
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 在框架中的位置
+### Position in the Framework
 
-| 工作 | 解决的问题 |
-|------|----------|
-| ViewFusion | 多视角几何一致性 |
-| CamReasoner | 摄像机运动的物理理解 |
+| Work | Problem Solved |
+|------|---------------|
+| ViewFusion | Multi-view geometric consistency |
+| CamReasoner | Physical understanding of camera motion |
 
 </div>
 
 <div>
 
-### 回扣核心主题
+### Connecting to Core Themes
 
-**Signal is Physics**：空间推理在做的事，是从图像信号中还原三维物理空间
+**Signal is Physics**: Spatial reasoning recovers 3D physical space from image signals.
 
-**Multi-source**：多视角的几何自洽性，就是空间推理的验证器
+**Multi-source**: Geometric consistency across viewpoints is the validator for spatial reasoning.
 
 </div>
 
@@ -624,39 +619,39 @@ RL 驱动的结构化空间推理
 
 <div class="mt-8 p-4 bg-green-50 border-l-4 border-green-400 text-gray-700">
 
-空间推理解决了"**在哪里**"
+Spatial reasoning answers "**where**".
 
-→ 时序推理解决"**什么时候**"
+→ Temporal reasoning answers "**when**".
 
 </div>
 
 ---
 
-# Part 4 · 时序推理
+# Part 4 · Temporal Reasoning
 
 ---
 
-# 时序推理的挑战
+# The Challenge of Temporal Reasoning
 
-### 为什么时间轴上的推理特别难？
+### Why Is Temporal Reasoning Particularly Hard?
 
 <div class="grid grid-cols-2 gap-6 mt-6">
 
 <div class="p-4 border rounded">
 
-**帧采样丢失信息**
+**Frame Sampling Loses Information**
 
-视频是连续时间的离散采样，帧间事件不可见
+Video is a discrete sampling of continuous time; events between frames are invisible.
 
-采样率不均匀时，时序关系进一步模糊
+Non-uniform sampling further blurs temporal relations.
 
 </div>
 
 <div class="p-4 border rounded">
 
-**位置编码的系统性偏差**
+**Systematic Bias in Positional Encoding**
 
-现有模型的时序位置编码存在已知偏差，导致对事件发生时间的感知系统性偏移
+Existing models have known biases in temporal positional encoding, leading to systematic offsets in perceived event timing.
 
 </div>
 
@@ -664,49 +659,49 @@ RL 驱动的结构化空间推理
 
 <div class="mt-8 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 
-**我们的思路**：在不重训练的前提下，校准时序感知
+**Our approach**: calibrate temporal perception without retraining.
 
-→ 时间连贯性是视频信号最基本的物理约束
+→ Temporal continuity is the most fundamental physical constraint on video signals.
 
 </div>
 
 ---
 
-# PAS · 时序稳定性校准
+# PAS · Positional Alignment Stabilizer
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 任务
+### Task
 
-Video LLMs 的 temporal encoding 偏差问题
+Temporal encoding bias in Video LLMs
 
-### 核心创新
+### Core Innovation
 
-Training-free 稳定器
+Training-free stabilizer
 
-无需重新训练，直接在推理阶段注入时序物理约束
+Injects temporal physical constraints directly at inference time, no retraining required.
 
-### 效果
+### Results
 
-显著减少时序感知偏差，提升时序问答准确率
+Significantly reduces temporal perception bias; improves temporal QA accuracy.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
 
 ```
-无 PAS:
-帧序列: F1 F2 F3 F4 F5
-感知:   F1    F3 F4 F5
-           ↑
-        时序空洞，偏差累积
+Without PAS:
+Frames:     F1 F2 F3 F4 F5
+Perceived:  F1    F3 F4 F5
+                ↑
+           Temporal gap; bias accumulates
 
-有 PAS:
-帧序列: F1 F2 F3 F4 F5
-感知:   F1 F2 F3 F4 F5
-物理约束注入 → 时序稳定
+With PAS:
+Frames:     F1 F2 F3 F4 F5
+Perceived:  F1 F2 F3 F4 F5
+Physical constraint injected → stable
 ```
 
 </div>
@@ -714,55 +709,56 @@ Training-free 稳定器
 </div>
 
 <div class="mt-4 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-结论：时间连贯性是物理真实性的基础保障
+Conclusion: Temporal continuity is the foundational guarantee of physical fidelity.
 </div>
 
 ---
 
-# FrameMind · 帧间推理与强化学习
+# FrameMind · Inter-frame Reasoning with RL
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 任务
+### Task
 
-视频帧交织推理
+Video frame interleaved reasoning
 
-### 核心创新
+### Core Innovation
 
-RL 驱动的帧间逻辑推理
+RL-driven inter-frame logical reasoning
 
-### 推理路径示例
+### Reasoning Path Example
 
 ```
-帧 t:   观察状态 A
-帧 t+1: 推断变化 A→B
-帧 t+2: 验证物理因果 ✓
-        预测状态 C
+Frame t:   Observe state A
+Frame t+1: Infer transition A→B
+Frame t+2: Verify physical causality ✓
+           Predict state C
 ```
 
-RL 奖励物理因果一致的推理路径
+RL rewards reasoning paths that are physically causal.
 
 </div>
 
 <div>
 
-### Multi-source 视角
+### Multi-source View
 
-相邻帧 = 对同一物理场景的**时序采样**
+Adjacent frames = **temporal samples** of the same physical scene.
 
-帧间推理必须满足因果自洽
+Inter-frame reasoning must satisfy causal consistency.
 
 ```
-帧 n:   球在空中
-帧 n+1: 球落地
-帧 n+2: 球弹起
-   ↓
-物理校验: 轨迹满足重力方程 ✓
+Frame n:   Ball in the air
+Frame n+1: Ball hits the ground
+Frame n+2: Ball bounces up
+     ↓
+Physical check: trajectory satisfies
+                gravity equations ✓
 ```
 
-若不自洽 → RL 惩罚 → 模型纠正
+If inconsistent → RL penalty → model corrects.
 
 </div>
 
@@ -770,61 +766,61 @@ RL 奖励物理因果一致的推理路径
 
 ---
 
-# 时序推理的更深含义
+# The Deeper Meaning of Temporal Reasoning
 
 <div class="mt-6 text-center text-xl">
-时间轴上的推理 = 对**物理因果链**的建模
+Reasoning on the time axis = Modeling the **physical causal chain**
 </div>
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-gray-700">
 
-**直觉例子**：打碎一个杯子
+**Intuitive example**: a glass shattering
 
-时序推理能告诉我们：
-- 撞击力的大小（由声音强度和破碎程度推断）
-- 材质属性（由碎裂方式推断）
-- 运动轨迹（由帧序列推断）
+Temporal reasoning can tell us:
+- Magnitude of the impact force (inferred from sound intensity and fracture pattern)
+- Material properties (inferred from the fracture mode)
+- Motion trajectory (inferred from the frame sequence)
 
 </div>
 
 <div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 
-**Multi-source 体现**
+**Multi-source connection**
 
-音频时间戳 ＋ 视频帧时间戳必须对齐
+Audio timestamps + video frame timestamps must be aligned.
 
-不对齐 → 就是 **Not in Sync** 问题的根源
+Misalignment → the root cause of the **Not in Sync** problem.
 
 </div>
 
 <div class="mt-4 text-center text-gray-500">
-因果顺序是物理世界最基本的约束之一
+Causal order is one of the most fundamental constraints of the physical world.
 </div>
 
 ---
 
-# 时序推理小结
+# Temporal Reasoning — Summary
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 在框架中的位置
+### Position in the Framework
 
-| 工作 | 解决的问题 |
-|------|----------|
-| PAS | 时序位置编码偏差的校准 |
-| FrameMind | 帧间因果推理与决策 |
+| Work | Problem Solved |
+|------|---------------|
+| PAS | Calibration of temporal positional encoding bias |
+| FrameMind | Inter-frame causal reasoning and decision-making |
 
 </div>
 
 <div>
 
-### 回扣核心主题
+### Connecting to Core Themes
 
-**Signal is Physics**：时序推理在做的事，是从视频信号中还原物理因果链
+**Signal is Physics**: Temporal reasoning recovers the physical causal chain from video signals.
 
-**Multi-source**：音视频时间戳的对齐，就是时序推理的验证器
+**Multi-source**: Audio-video timestamp alignment is the validator for temporal reasoning.
 
 </div>
 
@@ -832,133 +828,132 @@ RL 奖励物理因果一致的推理路径
 
 <div class="mt-8 p-4 bg-green-50 border-l-4 border-green-400 text-gray-700">
 
-空间和时间都解决了
+Space and time are both addressed.
 
-→ 现在让多个信号源**彼此验证**
+→ Now let multiple signal sources **verify each other**.
 
 </div>
 
 ---
 
-# Part 5 · 多源一致性的实现
+# Part 5 · Implementing Multi-source Consistency
 
 ---
 
-# 从单源推理到多源校验
+# From Single-source Reasoning to Multi-source Validation
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 
 <div>
 
-### 回顾
+### Recap
 
-空间推理和时序推理都是**单通道内**的结构化推理
+Spatial and temporal reasoning are both structured reasoning **within a single channel**.
 
-- ViewFusion：在视觉通道内推理空间
-- PAS / FrameMind：在时间维度内推理因果
+- ViewFusion: spatial reasoning within the visual channel
+- PAS / FrameMind: causal reasoning along the time dimension
 
 </div>
 
 <div>
 
-### 新问题
+### New Question
 
-不同信号源之间，如何相互验证？
+How do different signal sources validate each other?
 
-**物理基础**：同一物理事件在多个信号源上留下**冗余但一致**的痕迹
+**Physical basis**: the same physical event leaves **redundant but consistent** traces across multiple signal sources.
 
-这种冗余是天然的验证资源
+This redundancy is a natural verification resource.
 
 </div>
 
 </div>
 
 <div class="mt-8 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-同一声音，被多个麦克风记录；同一场景，被多个摄像机拍摄。
-它们描述的是同一个物理真相。
+The same sound is recorded by multiple microphones; the same scene is captured by multiple cameras. They all describe the same physical truth.
 </div>
 
 ---
 
-# 音频作为独立推理通道
+# Audio as an Independent Reasoning Channel
 
-### 音频的独特物理属性
+### Unique Physical Properties of Audio
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 
 <div class="p-4 border rounded text-center">
-**时间分辨率极高**
+**Extremely High Temporal Resolution**
 
-采样率 44100Hz，远超视频帧率，能捕捉极短暂的物理事件
+Sampling rate 44,100 Hz — far exceeding video frame rate — captures very brief physical events.
 </div>
 
 <div class="p-4 border rounded text-center">
-**空间约束强**
+**Strong Spatial Constraints**
 
-时延差 → 方向
+Time delay → direction
 
-强度衰减 → 距离
+Intensity attenuation → distance
 
-完整的空间几何信息藏在声学信号中
+Complete spatial geometry is encoded in acoustic signals.
 </div>
 
 <div class="p-4 border rounded text-center">
-**不受光照遮挡影响**
+**Unaffected by Lighting or Occlusion**
 
-黑暗中、障碍物后，音频信号依然携带完整的物理信息
+In darkness, behind obstacles — audio still carries complete physical information.
 </div>
 
 </div>
 
 <div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 
-回扣：音频 = 压力波的时空编码，里面藏着完整的空间几何信息
+Recall: Audio = spatiotemporal encoding of pressure waves, carrying complete spatial geometry.
 
-**音频是被严重低估的推理通道**
+**Audio is a severely underestimated reasoning channel.**
 
 </div>
 
 ---
 
-# Thinking with Sound · 音频推理链
+# Thinking with Sound · Audio Reasoning Chain
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div>
 
-### 任务
+### Task
 
-Audio Chain-of-Thought for multimodal reasoning
+Audio chain-of-thought for multimodal reasoning
 
-### 核心创新
+### Core Innovation
 
-显式音频推理步骤
+Explicit audio reasoning steps
 
-每一步推理对应一个声学物理操作
+Each step maps to an acoustic physical operation.
 
-### 意义
+### Significance
 
-音频推理链足够完整，才能真正充当跨模态验证器
+Only a complete audio reasoning chain can truly serve as a cross-modal validator.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
 
-**推理链展开示例**
+**Reasoning chain example**
 
 ```
-输入：双麦克风录音片段
+Input: Binaural audio clip
    ↓
-Step 1: 计算两麦克风的时延差
-        Δt = t_R - t_L = 0.3ms
+Step 1: Compute inter-microphone time delay
+        Δt = t_R - t_L = 0.3 ms
    ↓
-Step 2: 由时延差推断声源方向
+Step 2: Infer source direction from Δt
         θ = arcsin(c·Δt / d) = 30°
    ↓
-Step 3: 由强度衰减推断距离
-        r ≈ 2.4m
+Step 3: Infer distance from intensity decay
+        r ≈ 2.4 m
    ↓
-输出：声源在右前方 30°，距离约 2.4m
+Output: Source is front-right at 30°, ~2.4 m away
 ```
 
 </div>
@@ -966,58 +961,58 @@ Step 3: 由强度衰减推断距离
 </div>
 
 <div class="mt-4 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-结论：音频不只是特征，它可以承载完整的推理逻辑
+Conclusion: Audio is not just a feature — it can carry complete reasoning logic.
 </div>
 
 ---
 
-# AudioRouter · 多源一致性校验的实现
+# AudioRouter · Multi-source Consistency in Action
 
 <div class="grid grid-cols-2 gap-8 mt-4">
 
 <div>
 
-### 任务
+### Task
 
-用音频逻辑辅助视频动作理解
+Using audio logic to assist video action understanding
 
-### 核心创新
+### Core Innovation
 
-RL-based 双推理路径
+RL-based dual reasoning pathway
 
-### 一致性校验机制
+### Consistency Mechanism
 
 ```
-视频通道 → 推断"动作 A"
-音频通道 → 推断"声音对应动作 B"
-       ↓
-  A ≠ B，不一致！
-       ↓
-  RL 学会重新权衡
-  而不是盲目信任视觉
-       ↓
-  修正输出
+Video channel  → infers "Action A"
+Audio channel  → infers "Sound matches Action B"
+         ↓
+   A ≠ B: Inconsistency detected!
+         ↓
+   RL learns to re-weigh,
+   rather than blindly trust vision
+         ↓
+   Corrected output
 ```
 
 </div>
 
 <div>
 
-### 案例：音频修正视频误判
+### Case: Audio Corrects a Visual Error
 
-**场景**：视频显示"正在切菜"
+**Scene**: video shows "chopping vegetables"
 
-| 通道 | 推断 |
-|------|------|
-| 视觉 | 正在切菜 ✓ |
-| 音频 | 听到的是敲击声，不是切割声 |
+| Channel | Inference |
+|---------|-----------|
+| Visual | Chopping vegetables ✓ |
+| Audio | Sound is a thud, not a slicing sound |
 
-→ 音频不一致，触发重新推理
+→ Audio inconsistency triggers re-reasoning
 
-→ 修正：正在剁肉，而非切菜
+→ Corrected: mincing meat, not slicing vegetables
 
 <div class="mt-4 p-3 bg-green-50 border rounded text-gray-700">
-音频的物理逻辑充当了视觉推理的验证器
+Audio's physical logic acts as a validator for visual reasoning.
 </div>
 
 </div>
@@ -1028,16 +1023,16 @@ RL-based 双推理路径
 layout: center
 ---
 
-# 多源一致性的统一视角
+# Multi-source Consistency — Unified View
 
 <div class="font-mono text-sm p-6 bg-gray-100 rounded mt-4 text-gray-700">
 
 ```
-视觉推理链     ──┐
-音频推理链     ──┤
-多麦克风阵列   ──┼──→  一致性校验  ──→  物理真实性确认
-多视角摄像机   ──┤          ↑
-水声换能器阵列 ──┘     不一致 → 重新推理
+Visual reasoning chain    ──┐
+Audio reasoning chain     ──┤
+Microphone array          ──┼──→  Consistency Check  ──→  Physical Truth Confirmed
+Multi-view cameras        ──┤              ↑
+Underwater transducers    ──┘     Inconsistent → Re-reason
 ```
 
 </div>
@@ -1045,50 +1040,50 @@ layout: center
 <div class="mt-8 grid grid-cols-3 gap-4 text-sm text-center">
 
 <div class="p-3 border rounded">
-ViewFusion 体现**跨传感器**（多摄像机）
+ViewFusion represents **cross-sensor** (multi-camera)
 </div>
 
 <div class="p-3 border rounded">
-AudioRouter 体现**跨模态**（视觉＋音频）
+AudioRouter represents **cross-modal** (visual + audio)
 </div>
 
 <div class="p-3 border rounded">
-水声阵列是**两者的极端融合**
+Underwater acoustics is the **extreme fusion** of both
 </div>
 
 </div>
 
 ---
 
-# 多源推理小结
+# Multi-source Reasoning — Summary
 
 <div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 
-**Signal is Physics**：多源一致性推理在做的事，是验证多个独立观测是否描述了同一个物理真相
+**Signal is Physics**: Multi-source consistency reasoning verifies whether multiple independent observations describe the same physical truth.
 
 </div>
 
 <div class="mt-6 p-6 border-2 border-blue-400 rounded text-center">
 
-### 核心主张正式确立
+### Core Claim Formally Established
 
 **Multi-source Consistency is the Validator of Physical Truth**
 
 </div>
 
 <div class="mt-6 text-center text-gray-500 text-xl">
-这套框架能用在哪里？
+Where can this framework be applied?
 </div>
 
 ---
 
-# Part 6 · 落点：向上延伸
+# Part 6 · Looking Up: From Reasoning to Action
 
 ---
 
-# 推理驱动决策
+# Reasoning-Driven Decision Making
 
-### 从理解到行动的跨越
+### The Leap from Understanding to Acting
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
@@ -1096,30 +1091,31 @@ AudioRouter 体现**跨模态**（视觉＋音频）
 
 ### FrameMind
 
-视频推理 → 强化学习决策
+Video reasoning → reinforcement learning → decision
 
-推理链直接转化为动作指令
+Reasoning chain directly translates into action instructions.
 
 ### Video-to-BT
 
-人类示范 → 机器人行为树生成
+Human demonstration → robot behavior tree generation
 
-物理推理理解人类意图，生成可执行行为树
+Physical reasoning understands human intent and generates executable behavior trees.
 
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
 
 ```
-物理信号输入
-     ↓
-结构化推理（理解物理场景）
-     ↓
-推理链 → 动作序列
-     ↓
-RL 优化 → 决策输出
-     ↓
-机器人 / 智能体执行
+Physical signal input
+       ↓
+Structured reasoning
+(understand physical scene)
+       ↓
+Reasoning chain → action sequence
+       ↓
+RL optimization → decision output
+       ↓
+Robot / agent execution
 ```
 
 </div>
@@ -1127,12 +1123,12 @@ RL 优化 → 决策输出
 </div>
 
 <div class="mt-6 p-3 bg-green-50 border-l-4 border-green-400 text-gray-700">
-结论：物理推理的终点是可靠的行动
+Conclusion: The endpoint of physical reasoning is reliable action.
 </div>
 
 ---
 
-# GUI 与具身场景
+# GUI and Embodied Scenarios
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
@@ -1140,139 +1136,139 @@ RL 优化 → 决策输出
 
 ### Dimo-gui
 
-视觉推理驱动 GUI 交互
+Visual reasoning drives GUI interaction
 
-理解界面的视觉物理结构 → 可靠地执行操作序列
+Understanding the visual-physical structure of a UI → reliably executing action sequences.
 
-### CamReasoner 在具身导航中的潜力
+### CamReasoner in Embodied Navigation
 
-摄像机运动理解 → 机器人自身运动的空间推理
+Camera motion understanding → spatial reasoning about the robot's own motion
 
-理解"我在哪里、我在往哪里走"
+Understanding "where am I" and "where am I going".
 
 </div>
 
 <div>
 
-### Multi-source 体现
+### Multi-source Connection
 
-具身智能体需要同时整合：
+An embodied agent must integrate:
 
-- 视觉（摄像机）
-- 触觉（力传感器）
-- 运动（IMU、编码器）
-- 音频（环境声）
+- Vision (camera)
+- Touch (force sensor)
+- Motion (IMU, encoder)
+- Audio (ambient sound)
 
-多传感器的信号必须在物理上自洽，才能支持可靠决策
+Multi-sensor signals must be physically consistent to support reliable decision-making.
 
 </div>
 
 </div>
 
 <div class="mt-6 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
-结论：物理推理是具身智能的认知基础
+Conclusion: Physical reasoning is the cognitive foundation of embodied intelligence.
 </div>
 
 ---
 layout: center
 ---
 
-# 从信号到行动的完整链路
+# The Complete Chain: From Signal to Action
 
 <div class="mt-8 p-6 bg-gray-100 rounded text-gray-700">
 
 ```
-多源物理信号输入
-        ↓
-   空间推理
- (ViewFusion, CamReasoner)
-        ↓
-   时序推理
- (PAS, FrameMind)
-        ↓
-  多源一致性校验
- (AudioRouter, Thinking with Sound)
-        ↓
-    决策输出
- (Video-to-BT, Dimo-gui, FrameMind)
+Multi-source physical signal input
+              ↓
+        Spatial Reasoning
+    (ViewFusion, CamReasoner)
+              ↓
+       Temporal Reasoning
+         (PAS, FrameMind)
+              ↓
+  Multi-source Consistency Check
+  (AudioRouter, Thinking with Sound)
+              ↓
+        Decision Output
+   (Video-to-BT, Dimo-gui, FrameMind)
 ```
 
 </div>
 
 <div class="mt-6 text-center text-gray-500">
-这就是我们构建的完整研究框架
+This is the complete research framework we have built.
 
-每一步都在践行 **Signal is Physics**
+Every step practices **Signal is Physics**.
 </div>
 
 ---
 
-# Part 7 · 水声 AI：终极考场
+# Part 7 · Underwater Acoustics AI: The Ultimate Test
 
 ---
 
-# 为什么水声是终极考场？
+# Why Underwater Acoustics Is the Ultimate Test
 
 <div class="grid grid-cols-2 gap-8 mt-4">
 
 <div>
 
-### 极端物理约束
+### Extreme Physical Constraints
 
-- **多径反射**：声波在水中的复杂传播路径
-- **温度梯度**：声速随深度持续变化
-- **无视觉辅助**：纯单模态，只有声学信号
-- **极高噪声**：背景噪声强，信噪比极低
+- **Multipath reflections**: complex propagation paths in water
+- **Temperature gradients**: sound speed changes continuously with depth
+- **No visual aid**: purely unimodal — only acoustic signals
+- **Extremely high noise**: low SNR, strong background interference
 
-### 一句话
+### In One Sentence
 
-如果我们的框架在这里有效，它就是真正理解了物理
+If our framework works here, it has truly understood physics.
 
 </div>
 
 <div>
 
-### 回扣核心主题
+### Connecting to Core Themes
 
-**Signal is Physics**：水声是"信号即物理"最极端的体现——只有声学信号和物理规律，没有任何其他辅助
+**Signal is Physics**: Underwater acoustics is the most extreme embodiment of "signal is physics" — only acoustic signals and physical laws, no other assistance.
 
-**Multi-source**：水声阵列的每一个换能器都是独立观测，它们的一致性就是目标定位的唯一依据
+**Multi-source**: Every transducer in a sonar array is an independent observation; their consistency is the sole basis for target localization.
 
 </div>
 
 </div>
 
 <div class="mt-4 p-3 bg-red-50 border-l-4 border-red-400 text-gray-700">
-水声：把我们框架的每一个假设都推到极限
+Underwater acoustics pushes every assumption of our framework to the limit.
 </div>
 
 ---
 
-# 水声 AI 的应用前景
+# Applications of Underwater Acoustics AI
 
 <div class="grid grid-cols-3 gap-4 mt-8">
 
 <div class="p-4 border rounded text-center">
 
-### 海洋探测
+### Ocean Exploration
 
-深海生物探测、海洋环境监测、声学断层成像
-
-</div>
-
-<div class="p-4 border rounded text-center">
-
-### 水下无人系统
-
-AUV 自主导航、水下通信、协同作业
+Deep-sea species detection, marine environment monitoring, acoustic tomography.
 
 </div>
 
 <div class="p-4 border rounded text-center">
 
-### 海底资源勘探
+### Underwater Autonomous Systems
 
-矿产资源定位、管道检测、地质结构分析
+AUV navigation, underwater communication, cooperative operations.
+
+</div>
+
+<div class="p-4 border rounded text-center">
+
+### Seabed Resource Survey
+
+Mineral localization, pipeline inspection, geological structure analysis.
 
 </div>
 
@@ -1280,34 +1276,34 @@ AUV 自主导航、水下通信、协同作业
 
 <div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 
-**现状**：AI 渗透最浅、物理建模最复杂、应用价值最大
+**Status**: lowest AI penetration, most complex physical modeling, highest application value.
 
-**时机**：正是因为 AI 还没有真正进入这个领域，先行者的优势极大
+**Opportunity**: precisely because AI has not yet entered this domain, first-mover advantage is enormous.
 
 </div>
 
 ---
 
-# 我们的方法论迁移
+# Methodology Transfer
 
-### 已有能力 → 水声任务映射
+### Existing Capability → Underwater Acoustics Mapping
 
-| 已有能力 | 水声任务映射 |
-|---------|-----------|
-| 多视角空间推理（ViewFusion） | 阵列定向：多换能器时延差 → 声源方向 |
-| 时序稳定性校准（PAS） | 多径抑制：区分直达波与反射波 |
-| 跨模态一致性校验（AudioRouter） | 声图融合：声学信号与图像的联合推理 |
-| 音频推理链（Thinking with Sound） | 水声特征解析：从原始 IQ 信号到目标重建 |
+| Existing Capability | Underwater Acoustics Mapping |
+|--------------------|------------------------------|
+| Multi-view spatial reasoning (ViewFusion) | Array localization: inter-transducer time delays → source direction |
+| Temporal stability calibration (PAS) | Multipath suppression: separating direct arrivals from reflections |
+| Cross-modal consistency check (AudioRouter) | Acoustic-image fusion: joint reasoning from acoustic signals and imagery |
+| Audio reasoning chain (Thinking with Sound) | Underwater feature analysis: from raw IQ signals to target reconstruction |
 
 <div class="mt-8 p-4 bg-green-50 border-l-4 border-green-400 text-gray-700">
-结论：我们不是从零开始，我们带着验证过的工具箱进入新场景
+Conclusion: We are not starting from scratch — we are entering a new domain with a validated toolbox.
 </div>
 
 ---
 
-# 长期布局与招募
+# Long-term Roadmap and Recruitment
 
-### 三阶段路线图
+### Three-Phase Plan
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 
@@ -1315,9 +1311,9 @@ AUV 自主导航、水下通信、协同作业
 
 ### Phase 1 ✅
 
-已有 AI 工作的方法论沉淀
+Consolidate methodology from existing AI work.
 
-Signal is Physics 框架建立
+Establish the Signal is Physics framework.
 
 </div>
 
@@ -1325,11 +1321,11 @@ Signal is Physics 框架建立
 
 ### Phase 2
 
-图像层声纳
+Image-domain sonar.
 
-UATD / FSOD 数据集
+UATD / FSOD datasets.
 
-目标检测与识别
+Object detection and recognition.
 
 </div>
 
@@ -1337,11 +1333,9 @@ UATD / FSOD 数据集
 
 ### Phase 3
 
-物理层原始 IQ 信号
+Physical-domain raw IQ signal → image reconstruction.
 
-→ 图像重建
-
-真实声纳设备验证
+Validation on real sonar hardware.
 
 </div>
 
@@ -1349,33 +1343,33 @@ UATD / FSOD 数据集
 
 <div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 
-**招募信号**
+**Recruitment**
 
-对物理驱动 AI、水声信号处理、多模态推理感兴趣的同学，欢迎课后交流
+If you are interested in physics-driven AI, underwater acoustic signal processing, or multimodal reasoning — please find me after the talk.
 
 </div>
 
 ---
 
-# Part 8 · 收尾
+# Part 8 · Conclusion
 
 ---
 
-# 我们的研究版图
+# Our Research Landscape
 
-| 层次 | 工作 |
-|------|------|
-| **感知层** | Spatial Blind Spot · Not in Sync · Visual CoT |
-| **推理层** | ViewFusion · CamReasoner · PAS · FrameMind · Thinking with Sound · AudioRouter |
-| **决策层** | Video-to-BT · Dimo-gui · FrameMind |
+| Layer | Works |
+|-------|-------|
+| **Perception Layer** | Spatial Blind Spot · Not in Sync · Visual CoT |
+| **Reasoning Layer** | ViewFusion · CamReasoner · PAS · FrameMind · Thinking with Sound · AudioRouter |
+| **Decision Layer** | Video-to-BT · Dimo-gui · FrameMind |
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-center text-gray-700">
 
-感知层揭示**问题**
+Perception layer reveals the **problems**.
 
-推理层提供**方法**
+Reasoning layer provides the **methods**.
 
-决策层验证**价值**
+Decision layer validates the **value**.
 
 </div>
 
@@ -1383,7 +1377,7 @@ UATD / FSOD 数据集
 layout: center
 ---
 
-# 核心观点汇总
+# Core Claims
 
 <v-clicks>
 
@@ -1405,9 +1399,9 @@ Multi-source Consistency is the Validator of Physical Truth
 layout: center
 ---
 
-# 谢谢！
+# Thank You!
 
-欢迎提问与讨论
+Questions and discussion welcome.
 
 <div class="mt-8 text-gray-400 text-sm">
 your@email.com

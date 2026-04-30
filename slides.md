@@ -249,7 +249,7 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 Conclusion: The model sees the frames, but loses the physical meaning of temporal order.
 </div>
 
-<div class="absolute bottom-0 left-1 right-10 text-xs text-gray-400">
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
 Not in Sync: Unveiling Temporal Bias in Audio Chat Models · J Yao, S Liu, Y Wang, R Cheng, L Mei, B Bi, Z Xiong, X Cheng
 </div>
 
@@ -284,6 +284,10 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 <div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 Conclusion: More reasoning steps ≠ better physical understanding.
+</div>
+
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun Cai, Bryan Hooi, Songze Li
 </div>
 
 ---

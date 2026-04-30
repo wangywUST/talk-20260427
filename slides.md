@@ -235,7 +235,7 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 
 </div>
 
-<div class="relative w-full" style="height: 20rem;">
+<div class="relative w-full" style="height: 14rem;">
 
 <img src="/Image/fig_5.png" class="absolute top-0 w-full object-contain object-top transition-all duration-500" :class="$clicks >= 1 ? 'blur-sm opacity-50' : ''" style="max-height: 14rem;" />
 
@@ -249,7 +249,7 @@ Audio and video describe **the same physical event** — temporal inconsistency 
 Conclusion: The model sees the frames, but loses the physical meaning of temporal order.
 </div>
 
-<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+<div class="absolute bottom-0 left-1 right-10 text-xs text-gray-400">
 Not in Sync: Unveiling Temporal Bias in Audio Chat Models · J Yao, S Liu, Y Wang, R Cheng, L Mei, B Bi, Z Xiong, X Cheng
 </div>
 

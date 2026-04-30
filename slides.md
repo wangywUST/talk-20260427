@@ -265,8 +265,7 @@ Not in Sync: Unveiling Temporal Bias in Audio Chat Models · J Yao, S Liu, Y Wan
 
 ### Key Finding
 
-- Adding visual chain-of-thought improves overall accuracy
-- But it simultaneously introduces new, systematic error patterns
+- Visual chain-of-thought simultaneously introduces new, systematic error patterns
 - More reasoning steps → certain errors become worse
 
 ### Physical Interpretation
@@ -275,18 +274,9 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-gray-700">
+<div class="flex items-center justify-center">
 
-```
-Step 1: Observe scene       ✓
-Step 2: Infer relation      ✓
-Step 3: Conclude            ✗  ← Error accumulates
-
-vs. Physics-anchored:
-Step 1: Observe scene       ✓
-Step 2: Verify consistency  ✓
-Step 3: Conclude            ✓
-```
+<img src="/Image/fig_7.png" class="w-full object-contain max-h-64" />
 
 </div>
 

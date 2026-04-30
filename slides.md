@@ -274,11 +274,7 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<div class="flex items-center justify-center">
-
-<img src="/Image/fig_7.png" class="w-full object-contain max-h-64" />
-
-</div>
+<img src="/Image/fig_7.png" class="w-full object-contain object-top max-h-64" />
 
 </div>
 

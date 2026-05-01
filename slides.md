@@ -259,7 +259,9 @@ Not in Sync: Unveiling Temporal Bias in Audio Chat Models · J Yao, S Liu, Y Wan
 
 ## Visual CoT Makes VLMs Smarter but More Fragile
 
-<div class="grid grid-cols-2 gap-3 mt-3">
+<div class="relative mt-3">
+
+<div class="grid grid-cols-2 gap-3">
 
 <div>
 
@@ -278,8 +280,10 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<div v-click class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700 float-up">
+<div v-click class="absolute bottom-0 left-0 right-0 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700 float-up">
 Conclusion: More reasoning steps ≠ better physical understanding.
+</div>
+
 </div>
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">

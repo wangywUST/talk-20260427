@@ -278,7 +278,7 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
+<div v-click class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700 float-up">
 Conclusion: More reasoning steps ≠ better physical understanding.
 </div>
 

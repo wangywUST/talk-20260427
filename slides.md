@@ -259,7 +259,7 @@ Not in Sync: Unveiling Temporal Bias in Audio Chat Models · J Yao, S Liu, Y Wan
 
 ## Visual CoT Makes VLMs Smarter but More Fragile
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-2 gap-3 mt-3">
 
 <div>
 
@@ -274,7 +274,7 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<img src="/Image/fig_7.png" class="w-full object-contain object-top max-h-64" />
+<img src="/Image/fig_7.png" class="w-full h-auto object-contain object-top" />
 
 </div>
 

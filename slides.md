@@ -294,38 +294,15 @@ Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun 
 
 # Problem Framework
 
-<div class="grid grid-cols-3 gap-4 mt-8">
+<div class="flex flex-col items-center mt-2">
 
-<div class="p-4 border-2 border-blue-400 rounded text-center">
+<img src="/Image/fig_8.png" class="w-full max-h-80 object-contain" />
 
-### Top Layer
-Structured Reasoning
+<div class="mt-4 p-3 bg-red-50 border-l-4 border-red-400 text-gray-700 text-sm w-full">
 
-</div>
-
-<div class="p-4 border-2 border-green-400 rounded text-center">
-
-### Middle Layer
-Multi-source Signals
-
-Audio · Visual · Temporal · Sensor Array
+**The gap**: middle layer → top layer lacks physical priors. This is where our work begins.
 
 </div>
-
-<div class="p-4 border-2 border-gray-400 rounded text-center">
-
-### Bottom Layer
-Physical World
-
-</div>
-
-</div>
-
-<div class="mt-8 p-4 bg-red-50 border-l-4 border-red-400 text-gray-700">
-
-**The problem with current models**: the transition from middle layer to top layer lacks injection of physical priors.
-
-This is where our work begins.
 
 </div>
 

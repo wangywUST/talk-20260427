@@ -433,6 +433,7 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 ### Reasoning Step → Physical Operation
 
 | Coordinate alignment | Extrinsic matrix transform |
+|------------|------------------------------|
 | Triangulation | Multi-view geometry |
 | Relation inference | 3D spatial computation |
 
@@ -444,7 +445,7 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 Conclusions from different viewpoints must be geometrically consistent.
 
-<img src="/Image/fig_10.png" class="w-full object-contain max-h-52 mt-2" />
+<img src="/Image/fig_10.png" class="w-full object-contain max-h-52 mt-1 mb-0" />
 
 </div>
 

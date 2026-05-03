@@ -929,12 +929,8 @@ This is the complete research framework we have built. Every step practices **Si
 
 - **Multipath reflections**: complex propagation paths in water
 - **Temperature gradients**: sound speed changes continuously with depth
-- **No visual aid**: purely unimodal — only acoustic signals
+- **Limited visual aid**: poor visibility.
 - **Extremely high noise**: low SNR, strong background interference
-
-### In One Sentence
-
-If our framework works here, it has truly understood physics.
 
 </div>
 

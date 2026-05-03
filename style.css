@@ -38,6 +38,21 @@
   color: #1a1a1a !important;
 }
 
+/* Override Shiki dark theme for fenced code blocks */
+.slidev-layout pre {
+  background-color: #f3f4f6 !important;
+  color: #374151 !important;
+}
+
+.slidev-layout pre code {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.slidev-layout pre span {
+  color: #374151 !important;
+}
+
 .text-gray-400 {
   color: #888 !important;
 }

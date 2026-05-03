@@ -318,7 +318,7 @@ Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun 
 |------|-----------|-------------------|
 | Reasoning Chain | Each step maps to a physical operation | ViewFusion, Thinking with Sound |
 | Path Selection | RL learns physically consistent reasoning order | CamReasoner, AudioRouter |
-| Structure Injection | Hard-coded physical constraints injected into reasoning | PAS |
+| Structure Injection | Hard-coded physical constraints injected into reasoning | PAS (Phase Aggregated Smoothing) |
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-gray-700">
 

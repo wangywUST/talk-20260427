@@ -419,7 +419,7 @@ Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 <img src="/Image/fig_9.png" class="absolute bottom-4 left-2 right-2 w-[calc(100%-1rem)] object-contain max-h-52" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2025
+ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2026
 </div>
 
 ---
@@ -432,10 +432,7 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 ### Reasoning Step → Physical Operation
 
-| Reasoning Step | Physical Operation |
-|---------------|-------------------|
 | Coordinate alignment | Extrinsic matrix transform |
-| Depth estimation | Monocular depth constraint |
 | Triangulation | Multi-view geometry |
 | Relation inference | 3D spatial computation |
 
@@ -458,7 +455,7 @@ Conclusion: The reasoning structure is the linguistic expression of spatial phys
 </div>
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2025
+ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2026
 </div>
 
 ---
@@ -494,6 +491,10 @@ The model learns to select reasoning paths consistent with physical motion laws.
 
 </div>
 
+</div>
+
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026
 </div>
 
 ---

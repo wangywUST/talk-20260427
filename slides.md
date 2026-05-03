@@ -640,52 +640,24 @@ PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, 
 
 # FrameMind · Inter-frame Reasoning with RL
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+**Task**: Video frame interleaved reasoning. **Core idea**: adjacent frames are temporal samples of the same physical scene — reasoning across them must respect physical causality, enforced via RL rewards.
 
-<div>
+<img src="/Image/fig_14.png" class="w-full object-contain max-h-88 mt-3" />
 
-### Task
-
-Video frame interleaved reasoning
-
-### Core Innovation
-
-RL-driven inter-frame logical reasoning
-
-### Reasoning Path Example
-
-```
-Frame t:   Observe state A
-Frame t+1: Infer transition A→B
-Frame t+2: Verify physical causality ✓
-           Predict state C
-```
-
-RL rewards reasoning paths that are physically causal.
-
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+FrameMind: Advancing Video Understanding in LLMs with Inter-Frame Reasoning. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
 </div>
 
-<div>
+---
 
-### Multi-source View
+# FrameMind · Causal Consistency Check
 
-Adjacent frames = **temporal samples** of the same physical scene.
+RL rewards reasoning paths that are physically causal; inconsistent inter-frame transitions incur penalties and trigger model self-correction.
 
-Inter-frame reasoning must satisfy causal consistency.
+<img src="/Image/fig_15.png" class="w-full object-contain max-h-88 mt-3" />
 
-```
-Frame n:   Ball in the air
-Frame n+1: Ball hits the ground
-Frame n+2: Ball bounces up
-     ↓
-Physical check: trajectory satisfies
-                gravity equations ✓
-```
-
-If inconsistent → RL penalty → model corrects.
-
-</div>
-
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+FrameMind: Advancing Video Understanding in LLMs with Inter-Frame Reasoning. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
 </div>
 
 ---

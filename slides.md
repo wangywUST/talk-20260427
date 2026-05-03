@@ -645,7 +645,7 @@ PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, 
 <img src="/Image/fig_14.png" class="w-full object-contain max-h-88 mt-3" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-FrameMind: Advancing Video Understanding in LLMs with Inter-Frame Reasoning. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
+FrameMind: Frame-Interleaved Video Reasoning via Reinforcement Learning. Haonan Ge, Yiwei Wang, Kai-Wei Chang, Hang Wu, Yujun Cai. 2025
 </div>
 
 ---
@@ -657,7 +657,7 @@ RL rewards reasoning paths that are physically causal; inconsistent inter-frame 
 <img src="/Image/fig_15.png" class="w-full object-contain max-h-88 mt-3" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-FrameMind: Advancing Video Understanding in LLMs with Inter-Frame Reasoning. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
+FrameMind: Frame-Interleaved Video Reasoning via Reinforcement Learning. Haonan Ge, Yiwei Wang, Kai-Wei Chang, Hang Wu, Yujun Cai. 2025
 </div>
 
 ---

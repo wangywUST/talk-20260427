@@ -342,8 +342,6 @@ Underwater transducers    ──┘     Inconsistent → Re-reason</pre>
 
 <div class="mt-6 text-center text-gray-500">
 Analogy: Multiple independent witnesses in court — consistent testimony is credible; contradiction reveals the flaw.
-
-**Where inconsistency appears is where reasoning went wrong.**
 </div>
 
 ---
@@ -359,19 +357,19 @@ Analogy: Multiple independent witnesses in court — consistent testimony is cre
 <div class="grid grid-cols-3 gap-4 mt-6">
 
 <div class="p-4 border rounded text-center">
-**Insufficient Single-frame Information**
+<strong>Insufficient Single-frame Information</strong>
 
 Depth is lost in projection; a single image cannot determine 3D position.
 </div>
 
 <div class="p-4 border rounded text-center">
-**Viewpoint Dependence**
+<strong>Viewpoint Dependence</strong>
 
 The same scene leads to completely different spatial descriptions from different viewpoints.
 </div>
 
 <div class="p-4 border rounded text-center">
-**Occlusion**
+<strong>Occlusion</strong>
 
 Spatial relations of hidden parts can only be inferred from constraints.
 </div>

@@ -408,22 +408,6 @@ Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Input: Images from cameras A, B, C
-              ↓
-Step 1: Establish coordinate frames
-              ↓
-Step 2: Locate target in each view
-              ↓
-Step 3: Triangulate to 3D position
-              ↓
-Step 4: Infer spatial relation
-              ↓
-Output: Spatial relation answer ✓
-```
-
 </div>
 
 </div>
@@ -431,6 +415,8 @@ Output: Spatial relation answer ✓
 <div class="mt-4 text-gray-500 text-sm">
 Multi-source view: multiple cameras = multiple sensors independently sampling the same space.
 </div>
+
+<img src="/Image/fig_9.png" class="absolute bottom-6 left-8 right-8 w-[calc(100%-4rem)] object-contain max-h-36" />
 
 ---
 

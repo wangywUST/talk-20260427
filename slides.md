@@ -535,6 +535,10 @@ Reasoning paths that violate physical constraints are penalized, forcing the mod
 Conclusion: Understanding camera motion is the first step toward understanding visual physics.
 </div>
 
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026
+</div>
+
 ---
 
 # Spatial Reasoning — Summary

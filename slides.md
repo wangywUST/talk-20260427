@@ -322,11 +322,7 @@ Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun 
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-gray-700">
 
-**What all three share**
-
 The reasoning process is **transparent and interpretable** with respect to physical constraints.
-
-Every step can answer: what physical operation is this step performing?
 
 </div>
 

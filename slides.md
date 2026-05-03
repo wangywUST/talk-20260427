@@ -765,7 +765,9 @@ The same sound is recorded by multiple microphones; the same scene is captured b
 
 ### Unique Physical Properties of Audio
 
-<div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
+<img src="/Image/fig_16.png" class="w-full object-contain max-h-64 mt-3" />
+
+<div class="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 
 Recall: Audio = spatiotemporal encoding of pressure waves, carrying complete spatial geometry.
 

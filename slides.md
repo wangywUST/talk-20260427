@@ -662,7 +662,7 @@ FrameMind: Frame-Interleaved Video Reasoning via Reinforcement Learning. Haonan 
 
 ---
 
-# The Deeper Meaning of Temporal Reasoning
+# Deeper Meaning of Temporal Reasoning
 
 <div class="mt-6 text-center text-xl">
 Reasoning on the time axis = Modeling the **physical causal chain**
@@ -676,16 +676,6 @@ Temporal reasoning can tell us:
 - Magnitude of the impact force (inferred from sound intensity and fracture pattern)
 - Material properties (inferred from the fracture mode)
 - Motion trajectory (inferred from the frame sequence)
-
-</div>
-
-<div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
-
-**Multi-source connection**
-
-Audio timestamps + video frame timestamps must be aligned.
-
-Misalignment → the root cause of the **Not in Sync** problem.
 
 </div>
 

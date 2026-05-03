@@ -906,30 +906,11 @@ Conclusion: Physical reasoning is the cognitive foundation of embodied intellige
 
 # The Complete Chain: From Signal to Action
 
-<div class="mt-8 p-6 bg-gray-100 rounded text-gray-700">
+<img src="/Image/fig_22.png" class="w-full object-contain max-h-80 mt-3" />
 
-```
-Multi-source physical signal input
-              ↓
-        Spatial Reasoning
-    (ViewFusion, CamReasoner)
-              ↓
-       Temporal Reasoning
-         (PAS, FrameMind)
-              ↓
-  Multi-source Consistency Check
-  (AudioRouter, Thinking with Sound)
-              ↓
-        Decision Output
-   (Video-to-BT, Dimo-gui, FrameMind)
-```
-
-</div>
 
 <div class="mt-6 text-center text-gray-500">
-This is the complete research framework we have built.
-
-Every step practices **Signal is Physics**.
+This is the complete research framework we have built. Every step practices **Signal is Physics**.
 </div>
 
 ---

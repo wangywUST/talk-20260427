@@ -622,6 +622,34 @@ Conclusion: Temporal continuity is the foundational guarantee of physical fideli
 
 ---
 
+# PAS · How It Works
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+
+<div>
+
+### Problem: Positional Encoding Bias
+
+Video LLMs assign frame positions using learnable encodings that accumulate systematic error — frames are perceived at wrong temporal locations, distorting event order and duration.
+
+### Solution: Phase Aggregated Smoothing
+
+PAS corrects positional encodings at inference time by aggregating phase information across neighboring frames, injecting the physical constraint that temporal position must be smooth and monotonically increasing.
+
+### Key Properties
+
+- **Training-free**: plugs into any Video LLM without fine-tuning
+- **Physical prior**: enforces temporal continuity as a hard constraint
+- **Generalizable**: consistent gains across multiple benchmarks
+
+</div>
+
+<img src="/Image/fig_13.png" class="w-full object-contain max-h-96" />
+
+</div>
+
+---
+
 # FrameMind · Inter-frame Reasoning with RL
 
 <div class="grid grid-cols-2 gap-8 mt-6">

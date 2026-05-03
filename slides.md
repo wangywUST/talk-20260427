@@ -777,48 +777,9 @@ Audio = spatiotemporal encoding of pressure waves, carrying complete spatial geo
 
 # Thinking with Sound · Audio Reasoning Chain
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+**Task**: Audio chain-of-thought for multimodal reasoning. Each reasoning step maps to an acoustic physical operation — only a complete audio reasoning chain can truly serve as a cross-modal validator.
 
-<div>
-
-### Task
-
-Audio chain-of-thought for multimodal reasoning
-
-### Core Innovation
-
-Explicit audio reasoning steps
-
-Each step maps to an acoustic physical operation.
-
-### Significance
-
-Only a complete audio reasoning chain can truly serve as a cross-modal validator.
-
-</div>
-
-<div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-**Reasoning chain example**
-
-```
-Input: Binaural audio clip
-   ↓
-Step 1: Compute inter-microphone time delay
-        Δt = t_R - t_L = 0.3 ms
-   ↓
-Step 2: Infer source direction from Δt
-        θ = arcsin(c·Δt / d) = 30°
-   ↓
-Step 3: Infer distance from intensity decay
-        r ≈ 2.4 m
-   ↓
-Output: Source is front-right at 30°, ~2.4 m away
-```
-
-</div>
-
-</div>
+<img src="/Image/fig_17.png" class="w-full object-contain max-h-72 mt-3" />
 
 <div class="mt-4 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 Conclusion: Audio is not just a feature — it can carry complete reasoning logic.

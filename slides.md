@@ -445,7 +445,7 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 Conclusions from different viewpoints must be geometrically consistent.
 
-<img src="/Image/fig_10.png" class="w-full object-contain max-h-52 mt-1 mb-0" />
+<img src="/Image/fig_10.png" class="w-full object-contain max-h-52 mt-0 mb-0" />
 
 </div>
 
@@ -463,36 +463,29 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 # CamReasoner · Camera Motion Understanding
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-3 gap-4 mt-4">
 
-<div>
+<div class="p-3 bg-gray-50 rounded border">
 
-### Task
-
-Semantic classification of camera motion in video
-
-### Core Innovation
-
-RL-driven structured spatial reasoning
-
-The model learns to select reasoning paths consistent with physical motion laws.
+**Task** — Classify camera motion in video, distinguishing translation (dolly) from rotation (pan/tilt/zoom).
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-gray-700">
+<div class="p-3 bg-blue-50 rounded border">
 
-### Geometric Meaning of Motion Types
+**O-T-A Paradigm** — Observe object dynamics → Think about camera movement → Answer motion type.
 
-| Motion Type | Physical / Geometric Meaning |
-|------------|------------------------------|
-| Push (Dolly in) | Camera translates forward, focal length fixed |
-| Pull (Dolly out) | Camera translates backward, focal length fixed |
-| Pan / Tilt | Optical center fixed, optical axis rotates |
-| Zoom | Optical center fixed, focal length changes |
+</div>
+
+<div class="p-3 bg-green-50 rounded border">
+
+**Results** — +19% overall on CameraBench, outperforming Cam-Motion-72B with a 7B model.
 
 </div>
 
 </div>
+
+<img src="/Image/fig_11.png" class="w-full object-contain mt-4" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
 CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026

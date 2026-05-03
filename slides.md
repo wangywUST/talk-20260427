@@ -765,32 +765,6 @@ The same sound is recorded by multiple microphones; the same scene is captured b
 
 ### Unique Physical Properties of Audio
 
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-<div class="p-4 border rounded text-center">
-**Extremely High Temporal Resolution**
-
-Sampling rate 44,100 Hz — far exceeding video frame rate — captures very brief physical events.
-</div>
-
-<div class="p-4 border rounded text-center">
-**Strong Spatial Constraints**
-
-Time delay → direction
-
-Intensity attenuation → distance
-
-Complete spatial geometry is encoded in acoustic signals.
-</div>
-
-<div class="p-4 border rounded text-center">
-**Unaffected by Lighting or Occlusion**
-
-In darkness, behind obstacles — audio still carries complete physical information.
-</div>
-
-</div>
-
 <div class="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700">
 
 Recall: Audio = spatiotemporal encoding of pressure waves, carrying complete spatial geometry.

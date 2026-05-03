@@ -612,22 +612,7 @@ Significantly reduces temporal perception bias; improves temporal QA accuracy.
 
 </div>
 
-<div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Without PAS:
-Frames:     F1 F2 F3 F4 F5
-Perceived:  F1    F3 F4 F5
-                ↑
-           Temporal gap; bias accumulates
-
-With PAS:
-Frames:     F1 F2 F3 F4 F5
-Perceived:  F1 F2 F3 F4 F5
-Physical constraint injected → stable
-```
-
-</div>
+<img src="/Image/fig_12.png" class="w-full object-contain max-h-52" />
 
 </div>
 

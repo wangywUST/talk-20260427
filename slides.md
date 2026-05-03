@@ -851,46 +851,11 @@ Where can this framework be applied?
 
 # Reasoning-Driven Decision Making
 
-### The Leap from Understanding to Acting
+Physical signal input → structured reasoning → planning → RL optimization → execution. The reasoning chain is not a byproduct — it directly generates the action sequence.
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<img src="/Image/fig_21.png" class="w-full object-contain max-h-72 mt-3" />
 
-<div>
-
-### FrameMind
-
-Video reasoning → reinforcement learning → decision
-
-Reasoning chain directly translates into action instructions.
-
-### Video-to-BT
-
-Human demonstration → robot behavior tree generation
-
-Physical reasoning understands human intent and generates executable behavior trees.
-
-</div>
-
-<div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Physical signal input
-       ↓
-Structured reasoning
-(understand physical scene)
-       ↓
-Reasoning chain → action sequence
-       ↓
-RL optimization → decision output
-       ↓
-Robot / agent execution
-```
-
-</div>
-
-</div>
-
-<div class="mt-6 p-3 bg-green-50 border-l-4 border-green-400 text-gray-700">
+<div class="mt-4 p-3 bg-green-50 border-l-4 border-green-400 text-gray-700">
 Conclusion: The endpoint of physical reasoning is reliable action.
 </div>
 

@@ -791,57 +791,26 @@ Thinking with sound: Audio chain-of-thought enables multimodal reasoning in larg
 
 ---
 
-# AudioRouter · Multi-source Consistency in Action
+# AudioRouter · Audio-only Chain-of-Thought Reasoning
 
-<div class="grid grid-cols-2 gap-8 mt-4">
+**Task**: Audio question answering via explicit chain-of-thought. **Core idea**: RL trains the model to route each reasoning step through the appropriate acoustic operation, producing interpretable and physically grounded audio reasoning chains.
 
-<div>
+<img src="/Image/fig_18.png" class="w-full object-contain max-h-80 mt-3" />
 
-### Task
-
-Using audio logic to assist video action understanding
-
-### Core Innovation
-
-RL-based dual reasoning pathway
-
-### Consistency Mechanism
-
-```
-Video channel  → infers "Action A"
-Audio channel  → infers "Sound matches Action B"
-         ↓
-   A ≠ B: Inconsistency detected!
-         ↓
-   RL learns to re-weigh,
-   rather than blindly trust vision
-         ↓
-   Corrected output
-```
-
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+AudioRouter: Thinking with Sound via Audio Reasoning Chain. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
 </div>
 
-<div>
+---
 
-### Case: Audio Corrects a Visual Error
+# AudioRouter · Results
 
-**Scene**: video shows "chopping vegetables"
+RL-guided routing consistently outperforms chain-of-thought baselines across audio reasoning benchmarks, with gains especially pronounced on spatial and temporal acoustic tasks.
 
-| Channel | Inference |
-|---------|-----------|
-| Visual | Chopping vegetables ✓ |
-| Audio | Sound is a thud, not a slicing sound |
+<img src="/Image/fig_19.png" class="w-full object-contain max-h-80 mt-3" />
 
-→ Audio inconsistency triggers re-reasoning
-
-→ Corrected: mincing meat, not slicing vegetables
-
-<div class="mt-4 p-3 bg-green-50 border rounded text-gray-700">
-Audio's physical logic acts as a validator for visual reasoning.
-</div>
-
-</div>
-
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+AudioRouter: Thinking with Sound via Audio Reasoning Chain. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
 </div>
 
 ---

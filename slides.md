@@ -99,11 +99,11 @@ Signals are encodings of physical processes and should be reasoned about as such
 - Multi-source signals must be mutually consistent
 - Reasoning is interpretable and verifiable
 
-<div class="mt-6 p-4 bg-gray-100 rounded text-center text-gray-700">
+<div class="mt-6 p-4 bg-gray-100 rounded text-gray-700">
 Analogy: Memorizing answers vs. understanding the formula
 </div>
 
-<div class="mt-4 text-center text-gray-500">
+<div class="mt-4 text-gray-500">
 → This is the problem structured reasoning is built to solve.
 </div>
 

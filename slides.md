@@ -20,7 +20,7 @@ fonts:
 **Yiwei Wang** · University of California, Merced
 
 <div class="pt-4 text-gray-400">
-April 2026
+May 2026
 </div>
 
 <img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />
@@ -475,7 +475,7 @@ CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Re
 
 <div class="mt-8">
 
-### Camera Motion Is the Most Direct Visual Carrier of Physical Constraints
+### Camera Motion Is a Direct Visual Carrier of Physical Constraints
 
 Every camera motion corresponds to a deterministic 3D geometric transformation.
 
@@ -590,7 +590,7 @@ Existing models have known biases in temporal positional encoding, leading to sy
 
 ---
 
-# PAS · Positional Alignment Stabilizer
+# PAS · Phase Aggregated Smoothing
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 

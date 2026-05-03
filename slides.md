@@ -411,9 +411,7 @@ Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Input: Images from cameras A, B, C
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Input: Images from cameras A, B, C
               ↓
 Step 1: Establish coordinate frames
               ↓
@@ -423,9 +421,7 @@ Step 3: Triangulate to 3D position
               ↓
 Step 4: Infer spatial relation
               ↓
-Output: Spatial relation answer ✓
-```
-
+Output: Spatial relation answer ✓</pre>
 </div>
 
 </div>
@@ -459,14 +455,12 @@ Multi-source view: multiple cameras = multiple sensors independently sampling th
 
 Conclusions from different viewpoints must be geometrically consistent.
 
-```
-View A infers: "target is front-left"
+<pre style="background:#f3f4f6;color:#374151;padding:0.75rem;border-radius:0.375rem;font-size:0.8rem;line-height:1.7;margin:0.5rem 0;">View A infers: "target is front-left"
 View B infers: "target is back-right"
           ↓
 Geometric constraint check: Contradiction!
           ↓
-Reasoning chain self-corrects
-```
+Reasoning chain self-corrects</pre>
 
 </div>
 
@@ -651,9 +645,7 @@ Significantly reduces temporal perception bias; improves temporal QA accuracy.
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Without PAS:
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Without PAS:
 Frames:     F1 F2 F3 F4 F5
 Perceived:  F1    F3 F4 F5
                 ↑
@@ -662,9 +654,7 @@ Perceived:  F1    F3 F4 F5
 With PAS:
 Frames:     F1 F2 F3 F4 F5
 Perceived:  F1 F2 F3 F4 F5
-Physical constraint injected → stable
-```
-
+Physical constraint injected → stable</pre>
 </div>
 
 </div>
@@ -691,12 +681,10 @@ RL-driven inter-frame logical reasoning
 
 ### Reasoning Path Example
 
-```
-Frame t:   Observe state A
+<pre style="background:#f3f4f6;color:#374151;padding:0.75rem;border-radius:0.375rem;font-size:0.8rem;line-height:1.7;margin:0.5rem 0;">Frame t:   Observe state A
 Frame t+1: Infer transition A→B
 Frame t+2: Verify physical causality ✓
-           Predict state C
-```
+           Predict state C</pre>
 
 RL rewards reasoning paths that are physically causal.
 
@@ -710,14 +698,12 @@ Adjacent frames = **temporal samples** of the same physical scene.
 
 Inter-frame reasoning must satisfy causal consistency.
 
-```
-Frame n:   Ball in the air
+<pre style="background:#f3f4f6;color:#374151;padding:0.75rem;border-radius:0.375rem;font-size:0.8rem;line-height:1.7;margin:0.5rem 0;">Frame n:   Ball in the air
 Frame n+1: Ball hits the ground
 Frame n+2: Ball bounces up
      ↓
 Physical check: trajectory satisfies
-                gravity equations ✓
-```
+                gravity equations ✓</pre>
 
 If inconsistent → RL penalty → model corrects.
 
@@ -902,8 +888,7 @@ Only a complete audio reasoning chain can truly serve as a cross-modal validator
 
 **Reasoning chain example**
 
-```
-Input: Binaural audio clip
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Input: Binaural audio clip
    ↓
 Step 1: Compute inter-microphone time delay
         Δt = t_R - t_L = 0.3 ms
@@ -914,8 +899,7 @@ Step 2: Infer source direction from Δt
 Step 3: Infer distance from intensity decay
         r ≈ 2.4 m
    ↓
-Output: Source is front-right at 30°, ~2.4 m away
-```
+Output: Source is front-right at 30°, ~2.4 m away</pre>
 
 </div>
 
@@ -943,8 +927,7 @@ RL-based dual reasoning pathway
 
 ### Consistency Mechanism
 
-```
-Video channel  → infers "Action A"
+<pre style="background:#f3f4f6;color:#374151;padding:0.75rem;border-radius:0.375rem;font-size:0.8rem;line-height:1.7;margin:0.5rem 0;">Video channel  → infers "Action A"
 Audio channel  → infers "Sound matches Action B"
          ↓
    A ≠ B: Inconsistency detected!
@@ -952,8 +935,7 @@ Audio channel  → infers "Sound matches Action B"
    RL learns to re-weigh,
    rather than blindly trust vision
          ↓
-   Corrected output
-```
+   Corrected output</pre>
 
 </div>
 
@@ -985,15 +967,11 @@ Audio's physical logic acts as a validator for visual reasoning.
 # Multi-source Consistency — Unified View
 
 <div class="font-mono text-sm p-6 bg-gray-100 rounded mt-4 text-gray-700">
-
-```
-Visual reasoning chain    ──┐
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Visual reasoning chain    ──┐
 Audio reasoning chain     ──┤
 Microphone array          ──┼──→  Consistency Check  ──→  Physical Truth Confirmed
 Multi-view cameras        ──┤              ↑
-Underwater transducers    ──┘     Inconsistent → Re-reason
-```
-
+Underwater transducers    ──┘     Inconsistent → Re-reason</pre>
 </div>
 
 <div class="mt-8 grid grid-cols-3 gap-4 text-sm text-center">
@@ -1063,9 +1041,7 @@ Physical reasoning understands human intent and generates executable behavior tr
 </div>
 
 <div class="p-4 bg-gray-100 rounded text-sm text-gray-700">
-
-```
-Physical signal input
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Physical signal input
        ↓
 Structured reasoning
 (understand physical scene)
@@ -1074,9 +1050,7 @@ Reasoning chain → action sequence
        ↓
 RL optimization → decision output
        ↓
-Robot / agent execution
-```
-
+Robot / agent execution</pre>
 </div>
 
 </div>
@@ -1133,9 +1107,7 @@ Conclusion: Physical reasoning is the cognitive foundation of embodied intellige
 # The Complete Chain: From Signal to Action
 
 <div class="mt-8 p-6 bg-gray-100 rounded text-gray-700">
-
-```
-Multi-source physical signal input
+<pre style="background:none;color:inherit;margin:0;line-height:1.7;">Multi-source physical signal input
               ↓
         Spatial Reasoning
     (ViewFusion, CamReasoner)
@@ -1147,9 +1119,7 @@ Multi-source physical signal input
   (AudioRouter, Thinking with Sound)
               ↓
         Decision Output
-   (Video-to-BT, Dimo-gui, FrameMind)
-```
-
+   (Video-to-BT, Dimo-gui, FrameMind)</pre>
 </div>
 
 <div class="mt-6 text-center text-gray-500">

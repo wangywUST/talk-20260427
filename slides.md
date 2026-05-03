@@ -793,12 +793,12 @@ Thinking with sound: Audio chain-of-thought enables multimodal reasoning in larg
 
 # AudioRouter · Audio-only Chain-of-Thought Reasoning
 
-**Task**: Audio question answering via explicit chain-of-thought. **Core idea**: RL trains the model to route each reasoning step through the appropriate acoustic operation, producing interpretable and physically grounded audio reasoning chains.
+RL trains the model to route each reasoning step through the appropriate acoustic operation, producing interpretable and physically grounded audio reasoning chains.
 
 <img src="/Image/fig_18.png" class="w-full object-contain max-h-80 mt-3" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-AudioRouter: Thinking with Sound via Audio Reasoning Chain. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
+AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning. Liyang Chen, Hongkai Chen, Yujun Cai, Sifan Li, Qingwen Ye, Yiwei Wang. 2026
 </div>
 
 ---
@@ -810,7 +810,7 @@ RL-guided routing consistently outperforms chain-of-thought baselines across aud
 <img src="/Image/fig_19.png" class="w-full object-contain max-h-80 mt-3" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-AudioRouter: Thinking with Sound via Audio Reasoning Chain. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
+AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning. Liyang Chen, Hongkai Chen, Yujun Cai, Sifan Li, Qingwen Ye, Yiwei Wang. 2026
 </div>
 
 ---

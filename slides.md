@@ -419,7 +419,7 @@ Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 <img src="/Image/fig_9.png" class="absolute bottom-4 left-2 right-2 w-[calc(100%-1rem)] object-contain max-h-52" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
-Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs. Zhe Sun, Yujun Cai, Jiayu Yao, Yiwei Wang. 2025
+ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2025
 </div>
 
 ---
@@ -441,20 +441,13 @@ Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs. Zhe Sun, 
 
 </div>
 
-<div>
+<div class="flex flex-col gap-3">
 
 ### Multi-source Consistency
 
 Conclusions from different viewpoints must be geometrically consistent.
 
-```
-View A infers: "target is front-left"
-View B infers: "target is back-right"
-          ↓
-Geometric constraint check: Contradiction!
-          ↓
-Reasoning chain self-corrects
-```
+<img src="/Image/fig_10.png" class="w-full object-contain max-h-52 mt-2" />
 
 </div>
 
@@ -462,6 +455,10 @@ Reasoning chain self-corrects
 
 <div class="mt-6 p-3 bg-blue-50 border-l-4 border-blue-400 text-gray-700">
 Conclusion: The reasoning structure is the linguistic expression of spatial physical constraints.
+</div>
+
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2025
 </div>
 
 ---

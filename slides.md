@@ -463,29 +463,23 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 # CamReasoner · Camera Motion Understanding
 
-<div class="grid grid-cols-3 gap-4 mt-4">
+<div class="grid grid-cols-3 gap-2 mt-3 text-sm">
 
-<div class="p-3 bg-gray-50 rounded border">
-
-**Task** — Classify camera motion in video, distinguishing translation (dolly) from rotation (pan/tilt/zoom).
-
+<div class="p-2 bg-gray-50 rounded border leading-snug">
+<strong>Task</strong> — Classify camera motion in video, distinguishing translation (dolly) from rotation (pan/tilt/zoom).
 </div>
 
-<div class="p-3 bg-blue-50 rounded border">
-
-**O-T-A Paradigm** — Observe object dynamics → Think about camera movement → Answer motion type.
-
+<div class="p-2 bg-blue-50 rounded border leading-snug">
+<strong>O-T-A Paradigm</strong> — Observe object dynamics → Think about camera movement → Answer motion type.
 </div>
 
-<div class="p-3 bg-green-50 rounded border">
-
-**Results** — +19% overall on CameraBench, outperforming Cam-Motion-72B with a 7B model.
-
+<div class="p-2 bg-green-50 rounded border leading-snug">
+<strong>Results</strong> — +19% overall on CameraBench, outperforming Cam-Motion-72B with a 7B model.
 </div>
 
 </div>
 
-<img src="/Image/fig_11.png" class="w-full object-contain mt-4" />
+<img src="/Image/fig_11.png" class="w-full object-contain mt-0" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
 CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026

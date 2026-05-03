@@ -620,6 +620,10 @@ Significantly reduces temporal perception bias; improves temporal QA accuracy.
 Conclusion: Temporal continuity is the foundational guarantee of physical fidelity.
 </div>
 
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
+</div>
+
 ---
 
 # PAS · How It Works
@@ -646,6 +650,10 @@ PAS corrects positional encodings at inference time by aggregating phase informa
 
 <img src="/Image/fig_13.png" class="w-full object-contain max-h-96" />
 
+</div>
+
+<div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
+PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026
 </div>
 
 ---

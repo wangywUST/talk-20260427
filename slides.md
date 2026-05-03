@@ -817,33 +817,9 @@ AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning. Liy
 
 # Multi-source Consistency — Unified View
 
-<div class="font-mono text-sm p-6 bg-gray-100 rounded mt-4 text-gray-700">
+All signal channels converge at a **Consistency Check**: agreement confirms physical truth; inconsistency triggers re-reasoning. Underwater acoustics simultaneously validates cross-modal and cross-sensor inputs, making it the hardest and most complete test of this framework.
 
-```
-Visual reasoning chain    ──┐
-Audio reasoning chain     ──┤
-Microphone array          ──┼──→  Consistency Check  ──→  Physical Truth Confirmed
-Multi-view cameras        ──┤              ↑
-Underwater transducers    ──┘     Inconsistent → Re-reason
-```
-
-</div>
-
-<div class="mt-8 grid grid-cols-3 gap-4 text-sm text-center">
-
-<div class="p-3 border rounded">
-ViewFusion represents **cross-sensor** (multi-camera)
-</div>
-
-<div class="p-3 border rounded">
-AudioRouter represents **cross-modal** (visual + audio)
-</div>
-
-<div class="p-3 border rounded">
-Underwater acoustics is the **extreme fusion** of both
-</div>
-
-</div>
+<img src="/Image/fig_20.png" class="w-full object-contain max-h-80 mt-4" />
 
 ---
 

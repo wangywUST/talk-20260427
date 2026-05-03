@@ -994,8 +994,6 @@ Mineral localization, pipeline inspection, geological structure analysis.
 
 # Methodology Transfer
 
-### Existing Capability → Underwater Acoustics Mapping
-
 | Existing Capability | Underwater Acoustics Mapping |
 |--------------------|------------------------------|
 | Multi-view spatial reasoning (ViewFusion) | Array localization: inter-transducer time delays → source direction |

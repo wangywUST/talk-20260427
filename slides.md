@@ -628,41 +628,9 @@ PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, 
 
 # PAS · How It Works
 
-<div class="flex flex-col gap-3 mt-2">
+Video LLMs accumulate **positional encoding bias** — frames are perceived at wrong temporal locations. PAS corrects this at inference time by enforcing smooth, monotonically increasing temporal positions. **Training-free**, no fine-tuning required.
 
-<div class="grid grid-cols-3 gap-6">
-
-<div>
-
-### Problem: Positional Encoding Bias
-
-Video LLMs assign frame positions using learnable encodings that accumulate systematic error — frames are perceived at wrong temporal locations, distorting event order and duration.
-
-</div>
-
-<div>
-
-### Solution: Phase Aggregated Smoothing
-
-PAS corrects positional encodings at inference time by aggregating phase information across neighboring frames, injecting the physical constraint that temporal position must be smooth and monotonically increasing.
-
-</div>
-
-<div>
-
-### Key Properties
-
-- **Training-free**: plugs into any Video LLM without fine-tuning
-- **Physical prior**: enforces temporal continuity as a hard constraint
-- **Generalizable**: consistent gains across multiple benchmarks
-
-</div>
-
-</div>
-
-<img src="/Image/fig_13.png" class="w-full object-contain max-h-52" />
-
-</div>
+<img src="/Image/fig_13.png" class="w-full object-contain max-h-88 mt-3" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
 PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs. Bowen Sun, Yujun Cai, Ming-Hsuan Yang, Hang Wu, Yiwei Wang. 2026

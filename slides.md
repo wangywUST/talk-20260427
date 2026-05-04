@@ -119,7 +119,7 @@ Analogy: Memorizing answers vs. understanding the formula
 
 ---
 
-# The Capability Boundary of Current Multimodal AI
+# Capability Boundary of Current Multimodal AI
 
 ### What Models Have Achieved
 
@@ -312,7 +312,7 @@ Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun 
 
 # Part 2 · Structured Reasoning & Multi-source Consistency
 
-<img src="/Image/fig_24.png" class="w-full object-contain max-h-88 mt-4" />
+<img src="/Image/fig_24.png" class="w-full object-contain max-h-98 mt-4" />
 
 ---
 
@@ -352,7 +352,7 @@ Analogy: Multiple independent witnesses in court — consistent testimony is cre
 
 # Part 3 · Spatial Reasoning
 
-<img src="/Image/fig_25.png" class="w-full object-contain max-h-88 mt-4" />
+<img src="/Image/fig_25.png" class="w-full object-contain max-h-98 mt-4" />
 
 ---
 
@@ -558,7 +558,7 @@ Spatial reasoning answers "**where**".
 
 # Part 4 · Temporal Reasoning
 
-<img src="/Image/fig_26.png" class="w-full object-contain max-h-88 mt-4" />
+<img src="/Image/fig_26.png" class="w-full object-contain max-h-98 mt-4" />
 
 ---
 

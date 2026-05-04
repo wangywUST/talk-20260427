@@ -115,6 +115,8 @@ Analogy: Memorizing answers vs. understanding the formula
 
 # Part 1 · Perception ≠ Understanding
 
+<img src="/Image/fig_23.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # The Capability Boundary of Current Multimodal AI

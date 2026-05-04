@@ -312,6 +312,8 @@ Visual CoT Makes VLMs Smarter but More Fragile · Chunxue Xu, Yiwei Wang, Yujun 
 
 # Part 2 · Structured Reasoning & Multi-source Consistency
 
+<img src="/Image/fig_24.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # Three Forms of Structured Reasoning

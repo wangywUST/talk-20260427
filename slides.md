@@ -352,6 +352,8 @@ Analogy: Multiple independent witnesses in court — consistent testimony is cre
 
 # Part 3 · Spatial Reasoning
 
+<img src="/Image/fig_25.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # The Challenge of Spatial Reasoning

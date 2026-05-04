@@ -558,6 +558,8 @@ Spatial reasoning answers "**where**".
 
 # Part 4 · Temporal Reasoning
 
+<img src="/Image/fig_26.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # The Challenge of Temporal Reasoning

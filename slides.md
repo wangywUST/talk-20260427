@@ -998,7 +998,6 @@ Mineral localization, pipeline inspection, geological structure analysis.
 |--------------------|------------------------------|
 | Multi-view spatial reasoning (ViewFusion) | Array localization: inter-transducer time delays → source direction |
 | Temporal stability calibration (PAS) | Multipath suppression: separating direct arrivals from reflections |
-| Cross-modal consistency check (AudioRouter) | Acoustic-image fusion: joint reasoning from acoustic signals and imagery |
 | Audio reasoning chain (Thinking with Sound) | Underwater feature analysis: from raw IQ signals to target reconstruction |
 
 <div class="mt-8 p-4 bg-green-50 border-l-4 border-green-400 text-gray-700">

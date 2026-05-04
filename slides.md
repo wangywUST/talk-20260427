@@ -1057,7 +1057,7 @@ layout: center
 Questions and discussion welcome.
 
 <div class="mt-8 text-gray-400 text-sm">
-your@email.com
+wangyw.evan@gmail.com
 </div>
 
 <img src="/Image/uc_yellow.svg" class="absolute top-8 right-8 h-16" />

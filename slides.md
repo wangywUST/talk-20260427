@@ -857,6 +857,8 @@ Where can this framework be applied?
 
 # Part 6 · Looking Up: From Reasoning to Action
 
+<img src="/Image/fig_28.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # Reasoning-Driven Decision Making

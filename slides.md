@@ -732,6 +732,8 @@ Space and time are both addressed.
 
 # Part 5 · Implementing Multi-source Consistency
 
+<img src="/Image/fig_27.png" class="w-full object-contain max-h-88 mt-4" />
+
 ---
 
 # From Single-source Reasoning to Multi-source Validation

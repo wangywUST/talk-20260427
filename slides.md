@@ -1027,8 +1027,8 @@ Conclusion: We are not starting from scratch — we are entering a new domain wi
 | Layer | Works |
 |-------|-------|
 | **Perception Layer** | Spatial Blind Spot · Not in Sync · Visual CoT |
-| **Reasoning Layer** | ViewFusion · CamReasoner · PAS · · Thinking with Sound · AudioRouter |
-| **Decision Layer** | Dimo-gui · FrameMind |
+| **Reasoning Layer** | ViewFusion · CamReasoner · PAS · Thinking with Sound · AudioRouter |
+| **Decision Layer** | Dimo-gui · CamReasoner|
 
 <div class="mt-8 p-4 bg-gray-100 rounded text-center text-gray-700">
 

@@ -128,3 +128,45 @@
   font-size: 0.52rem;
   line-height: 1.25;
 }
+
+.slidev-layout:has(.title-slide-marker) {
+  justify-content: center;
+  padding: 74px 78px 58px !important;
+}
+
+.slidev-layout .title-slide-marker {
+  display: none;
+}
+
+.slidev-layout:has(.title-slide-marker) h1 {
+  max-width: 78%;
+  font-size: 3.2rem !important;
+  line-height: 1.02 !important;
+  margin-bottom: 0.65rem !important;
+}
+
+.slidev-layout:has(.title-slide-marker) h2 {
+  max-width: 78%;
+  color: #5c4b8a !important;
+  font-size: 1.45rem !important;
+  font-weight: 500 !important;
+  margin: 0 0 2rem !important;
+}
+
+.slidev-layout:has(.title-slide-marker) p {
+  font-size: 0.95rem !important;
+  margin: 0.28rem 0 !important;
+}
+
+.slidev-layout:has(.title-slide-marker) p:has(> img) {
+  position: absolute;
+  top: 30px;
+  right: 42px;
+  margin: 0 !important;
+}
+
+.slidev-layout:has(.title-slide-marker) p:has(> img) img {
+  width: auto;
+  height: 58px;
+  max-height: 58px;
+}

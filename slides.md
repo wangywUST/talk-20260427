@@ -14,6 +14,8 @@ fonts:
   mono: Noto Serif SC
 ---
 
+<span class="title-slide-marker"></span>
+
 # Signal is Physics
 ## Structured Reasoning for Multimodal World Understanding
 

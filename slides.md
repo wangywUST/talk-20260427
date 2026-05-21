@@ -282,7 +282,7 @@ The reasoning chain is not anchored to physical constraints, so the longer it ru
 
 </div>
 
-<div v-click class="absolute bottom-8 left-0 right-0 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700 float-up">
+<div v-click class="absolute bottom-0 left-0 right-0 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-gray-700 float-up">
 Conclusion: More reasoning steps ≠ better physical understanding.
 </div>
 
@@ -469,7 +469,7 @@ ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjia
 
 # CamReasoner · Camera Motion Understanding
 
-<img src="/Image/fig_11.png" class="w-full object-contain max-h-88 mt-0" />
+<img src="/Image/fig_11.png" class="w-full object-contain mt-0" />
 
 <div class="absolute bottom-1 left-1 right-10 text-xs text-gray-400">
 CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026

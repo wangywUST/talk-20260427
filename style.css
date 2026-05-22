@@ -144,9 +144,9 @@
 
 .slidev-layout footer {
   position: absolute;
-  left: 0;
+  left: 2px;
   right: 0;
-  bottom: 6px;
+  bottom: 2px;
   color: #777;
   font-size: 0.72rem;
   line-height: 1.15;

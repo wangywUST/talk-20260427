@@ -91,6 +91,8 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 **Multi-source constraints** require independent observations of the same event to stay mutually consistent, across **modalities** such as visual + audio and across **sensors** such as microphones, cameras, or transducers.
 
+![Figure](/Image/fig_30.png)
+
 ---
 
 # Evidence 1 · Spatial Blind Spot

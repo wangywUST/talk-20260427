@@ -138,7 +138,7 @@ Visual CoT Makes VLMs Smarter but More Fragile: Visual chain-of-thought introduc
 
 The reasoning chain is not anchored to physical constraints, so the longer it runs, the more it drifts.
 
-Conclusion: More reasoning steps ≠ better physical understanding.
+**Conclusion**: More reasoning steps ≠ better physical understanding.
 
 ![Figure](/Image/fig_7.png)
 

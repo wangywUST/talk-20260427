@@ -73,10 +73,6 @@ Signals are encodings of physical processes and should be reasoned about as such
 - Multi-source signals must be mutually consistent
 - Reasoning is interpretable and verifiable
 
-Analogy: Memorizing answers vs. understanding the formula
-
-→ This is the problem structured reasoning is built to solve.
-
 ![Figure](/Image/fig_3.png)
 
 ---

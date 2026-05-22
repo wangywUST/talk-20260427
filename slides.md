@@ -43,13 +43,7 @@ May 2026
 
 # Signal is Physics
 
-Audio  =  Spatiotemporal encoding of pressure waves
-
-Image  =  2D projection of a light field
-
-Video  =  Continuous sampling of spatiotemporal dynamics
-
-The structure of a signal is the structure of physical law.
+**Audio** is a spatiotemporal encoding of pressure waves; **image** is a 2D projection of a light field; **video** is continuous sampling of physical dynamics. The structure of a signal is the structure of physical law.
 
 ![Figure](/Image/fig_2.png)
 
@@ -91,23 +85,11 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 # What Are Physical Constraints?
 
-#### Spatial Constraints
+**Spatial constraints** include perspective, occlusion, and parallax: 3D layout leaves deterministic traces in 2D images.
 
-Perspective, occlusion, parallax
+**Temporal constraints** include motion continuity and causal order: physical events cannot be reversed on the time axis.
 
-The 3D spatial layout of objects leaves deterministic traces in 2D images.
-
-#### Temporal Constraints
-
-Motion continuity, causal order
-
-Physical events on the time axis must obey causality — they cannot be reversed.
-
-#### Multi-source Constraints
-
-Observations of the same physical event across multiple signal sources must be mutually consistent.
-
-Multi-source constraints cover: cross-modal (visual + audio) and cross-sensor (multi-microphone / multi-camera / multi-transducer).
+**Multi-source constraints** require independent observations of the same event to stay mutually consistent, across **modalities** such as visual + audio and across **sensors** such as microphones, cameras, or transducers.
 
 ---
 
@@ -221,17 +203,11 @@ Analogy: Multiple independent witnesses in court — consistent testimony is cre
 
 ### Why Is Spatial Reasoning Hard?
 
-Insufficient Single-frame Information
+**Single-frame ambiguity** loses depth in projection, so one image cannot determine 3D position.
 
-Depth is lost in projection; a single image cannot determine 3D position.
+**Viewpoint dependence** makes the same scene produce different spatial descriptions from different cameras.
 
-Viewpoint Dependence
-
-The same scene leads to completely different spatial descriptions from different viewpoints.
-
-Occlusion
-
-Spatial relations of hidden parts can only be inferred from constraints.
+**Occlusion** hides object parts, so their spatial relations can only be inferred through constraints.
 
 **Our approach**: use structured reasoning chains to make spatial relations explicit.
 
@@ -241,17 +217,7 @@ Spatial relations of hidden parts can only be inferred from constraints.
 
 # ViewFusion · Multi-view Spatial Reasoning Chain
 
-### Task
-
-Spatial relation QA under multi-view settings
-
-### Core Innovation
-
-Structured Spatial Thinking Chain — each reasoning step maps to a spatial geometric operation and is verifiable.
-
-### Results
-
-Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
+**Task**: spatial relation QA under multi-view settings. **Core innovation**: a Structured Spatial Thinking Chain whose steps map to verifiable geometric operations. **Result**: stronger performance on multi-view spatial reasoning benchmarks.
 
 ![Figure](/Image/fig_9.png)
 
@@ -261,13 +227,7 @@ Significantly outperforms baselines on multi-view spatial reasoning benchmarks.
 
 # ViewFusion · Physical Significance
 
-### Reasoning Step → Physical Operation
-
-### Multi-source Consistency
-
-Conclusions from different viewpoints must be geometrically consistent.
-
-Conclusion: The reasoning structure is the linguistic expression of spatial physical constraints.
+Each **reasoning step** corresponds to a physical operation, and conclusions from different viewpoints must remain **geometrically consistent**. The reasoning structure is the linguistic expression of spatial physical constraints.
 
 | Reasoning Step | Physical Operation |
 |------------|------------------------------|
@@ -291,21 +251,11 @@ Conclusion: The reasoning structure is the linguistic expression of spatial phys
 
 # CamReasoner · Physical Significance
 
-### Camera Motion Is a Direct Visual Carrier of Physical Constraints
+**Camera motion** directly carries physical constraints: every motion corresponds to a deterministic 3D geometric transformation, and the frame sequence must stay consistent with it.
 
-Every camera motion corresponds to a deterministic 3D geometric transformation.
+**RL** learns which reasoning path follows physical motion laws, not merely which final answer is correct.
 
-The video frame sequence must be physically consistent with that transformation.
-
-### Role of RL
-
-Not learning "which answer is correct", but learning "which reasoning path is consistent with physical motion laws".
-
-### Benefit
-
-Reasoning paths that violate physical constraints are penalized, forcing the model to internalize physical laws.
-
-Conclusion: Understanding camera motion is the first step toward understanding visual physics.
+Reasoning paths that violate constraints are penalized, forcing the model to internalize **visual physics**.
 
 <footer>CamReasoner: Reinforcing Camera Movement Understanding via Structured Spatial Reasoning. Hang Wu, Yujun Cai, Zehao Li, Haonan Ge, Bowen Sun, Junsong Yuan, Yiwei Wang. 2026</footer>
 
@@ -342,15 +292,9 @@ Spatial reasoning answers "**where**".
 
 ### Why Is Temporal Reasoning Particularly Hard?
 
-**Frame Sampling Loses Information**
+**Frame sampling** discretizes continuous time, so events between frames disappear and non-uniform sampling further blurs temporal relations.
 
-Video is a discrete sampling of continuous time; events between frames are invisible.
-
-Non-uniform sampling further blurs temporal relations.
-
-**Systematic Bias in Positional Encoding**
-
-Existing models have known biases in temporal positional encoding, leading to systematic offsets in perceived event timing.
+**Positional encoding bias** creates systematic offsets in perceived event timing.
 
 **Our approach**: calibrate temporal perception without retraining.
 
@@ -360,19 +304,7 @@ Existing models have known biases in temporal positional encoding, leading to sy
 
 # PAS · Phase Aggregated Smoothing
 
-### Task
-
-Temporal encoding bias in Video LLMs
-
-### Core Innovation
-
-Training-free stabilizer
-
-Injects temporal physical constraints directly at inference time, no retraining required.
-
-### Results
-
-Significantly reduces temporal perception bias; improves temporal QA accuracy.
+**Task**: temporal encoding bias in Video LLMs. **Core innovation**: a training-free stabilizer that injects temporal physical constraints at inference time. **Result**: lower temporal perception bias and higher temporal QA accuracy.
 
 Conclusion: Temporal continuity is the foundational guarantee of physical fidelity.
 
@@ -549,17 +481,9 @@ Conclusion: The endpoint of physical reasoning is reliable action.
 
 # GUI and Embodied Scenarios
 
-### Dimo-gui
+**Dimo-gui** uses visual reasoning to understand the visual-physical structure of a UI and execute action sequences reliably.
 
-Visual reasoning drives GUI interaction
-
-Understanding the visual-physical structure of a UI → reliably executing action sequences.
-
-### CamReasoner in Embodied Navigation
-
-Camera motion understanding → spatial reasoning about the robot's own motion
-
-Understanding "where am I" and "where am I going".
+**CamReasoner** turns camera motion understanding into spatial reasoning about the robot's own motion: "where am I" and "where am I going".
 
 ### Multi-source Connection
 
@@ -603,17 +527,11 @@ Underwater acoustics pushes every assumption of our framework to the limit.
 
 # Applications of Underwater Acoustics AI
 
-### Ocean Exploration
+**Ocean exploration** covers deep-sea species detection, marine monitoring, and acoustic tomography.
 
-Deep-sea species detection, marine environment monitoring, acoustic tomography.
+**Underwater autonomy** covers AUV navigation, communication, and cooperative operations.
 
-### Underwater Autonomous Systems
-
-AUV navigation, underwater communication, cooperative operations.
-
-### Seabed Resource Survey
-
-Mineral localization, pipeline inspection, geological structure analysis.
+**Seabed surveys** cover mineral localization, pipeline inspection, and geological structure analysis.
 
 **Status**: lowest AI penetration, most complex physical modeling, highest application value.
 
@@ -655,11 +573,11 @@ Decision layer validates the **value**.
 
 # Core Claims
 
-Signal is Physics
+**Signal is Physics**
 
-Structured Reasoning is the Language of Physical Constraints
+**Structured Reasoning** is the Language of Physical Constraints
 
-Multi-source Consistency is the Validator of Physical Truth
+**Multi-source Consistency** is the Validator of Physical Truth
 
 ---
 

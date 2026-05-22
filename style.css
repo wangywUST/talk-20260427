@@ -104,7 +104,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: auto auto 0 !important;
+  margin: 0.9rem auto 0 !important;
 }
 
 .slidev-layout p:has(> img) + p:has(> img) {

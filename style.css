@@ -133,6 +133,12 @@
   line-height: 1.15;
 }
 
+.slidev-layout footer.tight-footer {
+  position: static;
+  align-self: stretch;
+  margin-top: 0.45rem;
+}
+
 .slidev-layout:has(.title-slide-marker) {
   justify-content: center;
   padding: 74px 78px 58px !important;

@@ -105,7 +105,7 @@ Audio LLMs Cannot Perceive Sound Source Direction. When a sound source moves **l
 
 ![Figure](/Image/fig_4.png)
 
-<footer class="tight-footer">Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs. Zhe Sun, Yujun Cai, Jiayu Yao, Yiwei Wang. 2025</footer>
+<footer>Spatial Blind Spot: Auditory Motion Perception Deficits in Audio LLMs. Zhe Sun, Yujun Cai, Jiayu Yao, Yiwei Wang. 2025</footer>
 
 ---
 

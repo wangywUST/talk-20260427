@@ -3,7 +3,7 @@
   flex-direction: column;
   background: #fff !important;
   color: #1a1a1a !important;
-  padding: 42px 64px 0px !important;
+  padding: 42px 64px 28px !important;
   gap: 0;
 }
 
@@ -111,11 +111,25 @@
   margin-top: 0.4rem !important;
 }
 
+.slidev-layout p:has(> img):has(+ footer) {
+  flex: 1 1 auto;
+  min-height: 0;
+  align-items: center;
+  margin: 0.8rem auto 0 !important;
+}
+
 .slidev-layout img {
   display: block;
   max-width: 100%;
-  max-height: 38vh;
+  max-height: 50vh;
   object-fit: contain;
+}
+
+.slidev-layout p:has(> img):has(+ footer) img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .slidev-layout h1 + p:has(> img) img,
@@ -123,20 +137,19 @@
   max-height: 64vh;
 }
 
+.slidev-layout h1 + p:has(> img):has(+ footer) img,
+.slidev-layout h1 + h2 + p:has(> img):has(+ footer) img {
+  max-height: 100%;
+}
+
 .slidev-layout footer {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 6px;
+  bottom: 0;
   color: #777;
   font-size: 0.72rem;
   line-height: 1.15;
-}
-
-.slidev-layout footer.tight-footer {
-  position: static;
-  align-self: stretch;
-  margin-top: 0.45rem;
 }
 
 .slidev-layout:has(.title-slide-marker) {

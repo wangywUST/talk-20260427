@@ -137,6 +137,11 @@
   max-height: 64vh;
 }
 
+.slidev-layout h1 + p:has(> img):not(:has(+ footer)) img,
+.slidev-layout h1 + h2 + p:has(> img):not(:has(+ footer)) img {
+  max-height: 50vh;
+}
+
 .slidev-layout h1 + p:has(> img):has(+ footer) img,
 .slidev-layout h1 + h2 + p:has(> img):has(+ footer) img {
   max-height: 100%;

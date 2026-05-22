@@ -29,11 +29,11 @@ May 2026
 
 # Three Questions, One Principle
 
-- ① Given multiple microphones, can we tell where a sound is coming from?
+① **Multi-microphone localization** asks whether we can infer where a sound comes from.
 
-- ② Given a video, can AI tell whether the camera is pushing forward or rotating?
+② **Camera-motion understanding** asks whether AI can tell pushing forward from rotating.
 
-- ③ Given an underwater sonar array, can AI reconstruct a target's position from multi-transducer signals?
+③ **Sonar-array reconstruction** asks whether multi-transducer signals can recover a target position.
 
 → These three questions are, fundamentally, the same question.
 
@@ -79,15 +79,11 @@ Signals are not just observations; they are traces of physical processes. Reason
 
 ### What Models Have Achieved
 
-- Image recognition and generation: near or beyond human-level
-- Video QA and cross-modal retrieval: rapid progress
-- Speech understanding and audio generation: fast breakthroughs
+Current models are strong at **image recognition and generation**, improving quickly in **video QA and cross-modal retrieval**, and advancing rapidly in **speech understanding and audio generation**.
 
 ### But There Are Systematic Failures in Physical Constraint Reasoning
 
-- Cannot perceive the spatial motion direction of a sound source
-- Systematic temporal misalignment between audio and video
-- Longer reasoning chains can drift further from physical truth
+Yet they still fail on **sound-source motion**, show **audio-video temporal misalignment**, and can drift further from physical truth as reasoning chains become longer.
 
 Scale and data alone cannot fix a missing understanding of physics.
 
@@ -121,8 +117,7 @@ Multi-source constraints cover: cross-modal (visual + audio) and cross-sensor (m
 
 ### Key Finding
 
-- When a sound source moves from left to right, the model can barely determine the direction
-- Accuracy approaches random-chance level
+When a sound source moves **left to right**, the model can barely determine the direction, and accuracy approaches **random chance**.
 
 ### Physical Interpretation
 The **inter-microphone time delay** encodes complete spatial information — yet the model does not use it at all.
@@ -141,8 +136,7 @@ Conclusion: The model is listening, but not reasoning about space.
 
 ### Key Finding
 
-- Models show a significant, systematic bias in localizing audio events in time
-- The bias does not improve with model scale
+Models show a **systematic temporal bias** when localizing audio events, and this bias does not improve with **model scale**.
 
 ### Physical Interpretation
 Audio and video describe **the same physical event** — temporal inconsistency means the model has lost the physical causal chain.
@@ -161,8 +155,7 @@ Conclusion: The model sees the frames, but loses the physical meaning of tempora
 
 ### Key Finding
 
-- Visual chain-of-thought simultaneously introduces new, systematic error patterns
-- More reasoning steps → certain errors become worse
+Visual chain-of-thought introduces **new systematic errors**, and for some cases **more reasoning steps** make the errors worse.
 
 ### Physical Interpretation
 
@@ -425,10 +418,7 @@ Reasoning on the time axis = Modeling the **physical causal chain**
 
 **Intuitive example**: a glass shattering
 
-Temporal reasoning can tell us:
-- Magnitude of the impact force (inferred from sound intensity and fracture pattern)
-- Material properties (inferred from the fracture mode)
-- Motion trajectory (inferred from the frame sequence)
+Temporal reasoning can infer **impact force** from sound intensity and fracture patterns, **material properties** from fracture mode, and **motion trajectory** from the frame sequence.
 
 Causal order is one of the most fundamental constraints of the physical world.
 
@@ -467,8 +457,7 @@ Space and time are both addressed.
 
 Spatial and temporal reasoning are both structured reasoning **within a single channel**.
 
-- ViewFusion: spatial reasoning within the visual channel
-- PAS / FrameMind: causal reasoning along the time dimension
+**ViewFusion** handles spatial reasoning inside the visual channel, while **PAS** and **FrameMind** handle causal reasoning along the time dimension.
 
 ### New Question
 
@@ -574,12 +563,7 @@ Understanding "where am I" and "where am I going".
 
 ### Multi-source Connection
 
-An embodied agent must integrate:
-
-- Vision (camera)
-- Touch (force sensor)
-- Motion (IMU, encoder)
-- Audio (ambient sound)
+An embodied agent must integrate **vision** from cameras, **touch** from force sensors, **motion** from IMU and encoders, and **audio** from ambient sound.
 
 Multi-sensor signals must be physically consistent to support reliable decision-making.
 
@@ -605,10 +589,7 @@ This is the complete research framework we have built. Every step practices **Si
 
 ### Extreme Physical Constraints
 
-- **Multipath reflections**: complex propagation paths in water
-- **Temperature gradients**: sound speed changes continuously with depth
-- **Limited visual aid**: poor visibility.
-- **Extremely high noise**: low SNR, strong background interference
+Underwater acoustics combines **multipath reflections**, **temperature-dependent sound speed**, **limited visual aid**, and **extremely high noise** into one tightly constrained physical setting.
 
 ### Connecting to Core Themes
 

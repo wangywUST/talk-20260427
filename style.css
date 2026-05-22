@@ -121,7 +121,7 @@
 .slidev-layout img {
   display: block;
   max-width: 100%;
-  max-height: 50vh;
+  max-height: 38vh;
   object-fit: contain;
 }
 
@@ -139,7 +139,7 @@
 
 .slidev-layout h1 + p:has(> img):not(:has(+ footer)) img,
 .slidev-layout h1 + h2 + p:has(> img):not(:has(+ footer)) img {
-  max-height: 50vh;
+  max-height: 38vh;
 }
 
 .slidev-layout h1 + p:has(> img):has(+ footer) img,

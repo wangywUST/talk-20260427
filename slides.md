@@ -130,11 +130,9 @@ Conclusion: The model sees the frames, but loses the physical meaning of tempora
 
 # Evidence 3 · Fragile Visual Reasoning
 
-## Visual CoT Makes VLMs Smarter but More Fragile
-
 ### Key Finding
 
-Visual chain-of-thought introduces **new systematic errors**, and for some cases **more reasoning steps** make the errors worse.
+Visual CoT Makes VLMs Smarter but More Fragile: Visual chain-of-thought introduces **new systematic errors**, and for some cases **more reasoning steps** make the errors worse.
 
 ### Physical Interpretation
 

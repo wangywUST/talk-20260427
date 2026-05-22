@@ -97,16 +97,11 @@ Scale and data alone cannot fix a missing understanding of physics.
 
 # Evidence 1 · Spatial Blind Spot
 
-## Audio LLMs Cannot Perceive Sound Source Direction
-
 ### Key Finding
 
-When a sound source moves **left to right**, the model can barely determine the direction, and accuracy approaches **random chance**.
+Audio LLMs Cannot Perceive Sound Source Direction. When a sound source moves **left to right**, the model can barely determine the direction, and accuracy approaches **random chance**.
 
-### Physical Interpretation
-The **inter-microphone time delay** encodes complete spatial information — yet the model does not use it at all.
-
-Conclusion: The model is listening, but not reasoning about space.
+**Conclusion**: The model is listening, but not reasoning about space.
 
 ![Figure](/Image/fig_4.png)
 

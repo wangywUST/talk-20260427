@@ -3,7 +3,7 @@
   flex-direction: column;
   background: #fff !important;
   color: #1a1a1a !important;
-  padding: 42px 64px 30px !important;
+  padding: 42px 64px 5px !important;
   gap: 0;
 }
 
@@ -127,7 +127,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 6px;
   color: #777;
   font-size: 0.72rem;
   line-height: 1.15;

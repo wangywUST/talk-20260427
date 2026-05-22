@@ -59,11 +59,11 @@ The structure of a signal is the structure of physical law.
 
 ### How Current Models Work
 
-Current models largely operate through **statistical pattern matching**: inputs similar to those seen during training tend to produce similar outputs. Without an explicit **physical prior**, they can fail systematically on **out-of-distribution** cases.
+**Statistical pattern matching**: inputs similar to those seen during training tend to produce similar outputs. Without an explicit **physical prior**, they can fail systematically on **out-of-distribution** cases.
 
 ### Our Claim
 
-Signals are not just observations; they are traces of physical processes. Reasoning over them should therefore preserve physical operations, enforce consistency across sources, and produce steps that can be interpreted and verified.
+Signals are not just observations; they are traces of physical processes. Reasoning over them should therefore preserve physical operations and produce steps that can be interpreted and verified.
 
 ![Figure](/Image/fig_3.png)
 

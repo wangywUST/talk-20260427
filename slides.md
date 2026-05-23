@@ -572,8 +572,10 @@ Decision layer validates the **value**.
 
 # Thank You!
 
+<span class="closing-slide-marker"></span>
+
 Questions and discussion welcome.
 
-wangyw.evan@gmail.com
+[wangyw.evan@gmail.com](mailto:wangyw.evan@gmail.com)
 
 ![UC Merced](/Image/uc_yellow.svg)

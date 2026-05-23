@@ -176,15 +176,9 @@ The reasoning process is **transparent and interpretable** with respect to physi
 
 Core principle: The physical world is singular. Any set of independent observations of it must yield mutually consistent conclusions.
 
-```text
-Visual reasoning chain    ──┐
-Audio reasoning chain     ──┤
-Microphone array          ──┼──→  Consistency Check  ──→  Physical Truth Confirmed
-Multi-view cameras        ──┤              ↑
-Underwater transducers    ──┘     Inconsistent → Re-reason
-```
-
 Analogy: Multiple independent witnesses in court — consistent testimony is credible; contradiction reveals the flaw.
+
+![Figure](/Image/fig_31.png)
 
 ---
 

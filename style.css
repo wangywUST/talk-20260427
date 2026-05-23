@@ -118,16 +118,10 @@
   background: #fbfcfd;
 }
 
-.slidev-layout tbody tr:nth-child(3n + 1) td:first-child {
-  border-left: 4px solid #6aaed6;
-}
-
-.slidev-layout tbody tr:nth-child(3n + 2) td:first-child {
-  border-left: 4px solid #c89ed8;
-}
-
-.slidev-layout tbody tr:nth-child(3n) td:first-child {
-  border-left: 4px solid #d9b56a;
+.slidev-layout tbody td:first-child {
+  color: #7a4f00;
+  font-weight: 650;
+  background: rgba(154, 79, 0, 0.035);
 }
 
 .slidev-layout tbody tr:last-child td {

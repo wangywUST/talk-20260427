@@ -224,8 +224,6 @@ Each **reasoning step** corresponds to a physical operation, and conclusions fro
 | Triangulation | Multi-view geometry |
 | Relation inference | 3D spatial computation |
 
-![Figure](/Image/fig_10.png)
-
 <footer>ViewFusion: Structured Spatial Thinking Chains for Multi-View Reasoning. Xingjian Tao, Yiwei Wang, Yujun Cai, Yifan Song, Jing Tang. 2026</footer>
 
 ---

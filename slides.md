@@ -9,7 +9,6 @@ drawings:
 transition: slide-left
 mdc: true
 download: true
-editor: false
 fonts:
   sans: Noto Serif SC
   mono: Noto Serif SC

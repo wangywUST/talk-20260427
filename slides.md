@@ -577,3 +577,7 @@ Questions and discussion welcome.
 [wangyw.evan@gmail.com](mailto:wangyw.evan@gmail.com)
 
 ![UC Merced](/Image/uc_yellow.svg)
+
+<style>
+:global(#slidev-goto-dialog.-top-20) { overflow: hidden; max-height: 80px; }
+</style>
